@@ -1,0 +1,149 @@
+.py-portMain{
+    padding-top: 83px;
+    padding-bottom: 81px;
+}
+
+.port-link {
+    list-style-type: none; 
+    padding: 0; 
+    margin-bottom: 58px; 
+    flex-wrap: wrap;
+}
+
+.port-link li {
+
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+
+
+    padding: 0 20px; 
+    margin: 0;
+    cursor: pointer; 
+}
+
+
+.border-port{
+    border-radius: 6px;
+    height: 416px;
+}
+
+
+.my-number{
+   margin:85px 0px;
+}
+
+.Num-btn {
+    font-size: 14px;
+    font-weight: 900;
+    color: white;
+    background-color: var(--Change, #E97636);
+    border: none;
+    padding: 5px 14px;
+    border-radius: 6px;
+}
+
+.Num-btn-white{
+    font-size: 14px;
+    font-weight: 900;
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 5px 14px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 9px 0px #39140014;
+    margin-left: 10px;
+}
+
+.help-border{
+    background-color: var(--Change, #E97636);
+    padding:42px 102px 72px 102px;
+    border-radius: 6px;
+}
+
+.help-border  h1{
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -1px;
+}
+
+
+.help-border  p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 28px;
+    margin-bottom: 34px;
+}
+
+
+.portContact-btn{
+ padding: 10px 20px;
+font-size: 14px;
+font-weight: 900;
+
+color: #391400;
+width: max-content;
+
+border-radius: 6px;
+border: none;
+text-transform: uppercase;
+
+}
+.port-image{
+height: 442.45px;
+}
+
+.mt-PortSub{
+    margin-top: 47px;
+}
+
+
+
+
+
+@media (max-width: 425px) {
+    .port-link li {
+        font-size: 13px;
+        padding: 0 3px;
+
+    }
+
+    .port-link {
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 9px;
+    }
+  .p-425{
+    padding: 20px;
+  }
+  .help-border {
+   padding: 20px;
+}
+
+.help-border  h1 {
+    font-size: 39px;
+    font-weight: 800;
+    line-height: 43px;
+    letter-spacing: -1px;
+}
+
+.help-border  p {
+    line-height: 25px;
+}
+.mt-991{
+    margin-top: 20px;
+}
+
+}
+
+
+@media (max-width: 425px) {
+.sub-btn {
+    padding: 10px 20px;
+}
+
+
+
+}

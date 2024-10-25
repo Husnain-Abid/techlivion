@@ -1,0 +1,32 @@
+/* fonts */
+.Rubik{
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+}
+
+.epilogue {
+  font-family: "Epilogue", sans-serif;
+  
+  font-style: normal;
+}
+
+.pops {
+  font-family: "Poppins", sans-serif;
+
+  font-style: normal;
+}
+
+.orange{
+  color: var(--Change, #E97636);
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.underline{
+  text-decoration: underline;
+}
+.mt-20{
+  margin-top: 20px;
+}

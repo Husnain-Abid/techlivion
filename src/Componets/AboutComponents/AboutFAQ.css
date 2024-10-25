@@ -1,0 +1,128 @@
+.py-FAQ{
+    padding-top: 151px;
+    padding-bottom: 171px;
+}
+
+
+.FAQ-Box{
+    width: 770px;
+}
+
+.FAQ-Box h1{
+
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 31px;
+
+}
+
+
+.FAQ-Box h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+
+    }
+
+.mb-65{
+    margin-bottom: 65px;
+}
+
+/* .border-FAQ{
+    border: 1px solid black;
+} */
+
+
+.border-FAQ {
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+  
+  .border-FAQ.expanded {
+    background-color: #ff7a00; /* Orange background when expanded */
+  }
+  
+  .FAQ-answer {
+    background-color:#ff7a00;
+    border: 1px solid #ddd;
+    border-top: none;
+    
+    transition: all 0.3s ease;
+  }
+  
+  .orange {
+    color: #ff7a00;
+  }
+
+  .mt-173{
+    margin-top: 173px;
+  }
+  
+
+  @media (max-width: 991px) {
+
+    .mt-173{
+        margin-top: 30px;
+      }
+  }
+
+
+  @media (max-width: 768px) {
+    .FAQ-Box {
+      padding: 0 20px;
+    }
+  }
+
+
+@media (max-width: 425px) {
+    .FAQ-Box h2 {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 19px;
+    }
+
+    .FAQ-Box .p-5 {
+        padding: 1.2rem!important;
+    }
+
+    .py-FAQ {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .py-Team h1 {
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 30px;
+      letter-spacing: -1px;
+      text-align: left;
+      margin-top: 20px;
+      margin-bottom: 50px;
+  }
+
+    .test-intro h1 {
+        font-size: 35px;
+        font-weight: 800;
+        line-height: 43px;
+        margin-bottom: 4px;
+        letter-spacing: -1px;
+    }
+
+    .slider-container {
+        padding-bottom: 200px;
+    }
+
+    .FAQ-Box h1 {
+      font-size: 30px;
+      font-weight: 800;
+      margin-bottom: 31px;
+  }
+
+  .mb-65 {
+    margin-bottom: 30px;
+}
+
+
+
+  }

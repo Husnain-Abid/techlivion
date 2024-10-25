@@ -1,0 +1,57 @@
+.WorkBack{
+    background-color: #2F2E41;
+}
+
+.py-Work{
+    padding-top: 65px;
+    padding-bottom: 77px;
+}
+
+.py-Work h1{
+
+font-size: 40px;
+font-weight: 800;
+    margin-top: 17px;
+    margin-bottom: 31px;
+}
+
+
+.py-Work h2{
+
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: -2px;
+
+    
+    }
+
+    
+.py-Work h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    
+    }
+
+.mt-32{
+    margin-top: 32px;
+}
+
+
+.V-topBox1 p{
+    font-family: var(--fontfamilyFont1);
+font-size: 13.43px;
+font-weight: 400;
+line-height: 17.9px;
+}
+
+.V-topBox1 h1{
+    font-family: var(--fontfamilyFont1);
+    font-size: 53.7px;
+    font-weight: 800;
+    line-height: 53.7px;
+    letter-spacing: -2.2375550270080566px;
+    margin-top: 19px;
+    margin-bottom: 34px;
+}

@@ -1,0 +1,59 @@
+.py-Team{
+    padding-top: 119px;
+    padding-bottom: 112px;
+}
+
+.py-Team p{
+
+}
+
+.py-Team h1{
+
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 103px;
+    
+}
+
+
+
+.Team-Back{
+    background: var(--Change, #E97636);
+
+}
+
+.Team-Back .slick-prev, .slick-next {
+display: none!important;
+
+}
+
+.Team-Back.slick-dots li button:before {
+    color: white;
+}
+
+.Team-Back .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: white;
+}
+
+.team-member h4{
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+
+    
+}
+
+.team-member p{
+  font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+
+    
+}
+

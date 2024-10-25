@@ -1,0 +1,189 @@
+.bg-blk {
+  background-color: #2f2e41;
+  /* Adjust as needed */
+}
+
+.nav-link {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  /* line-height: 28px; */
+}
+
+.navbar-toggler {
+  background: gray;
+}
+
+.navbar-brand img {
+  height: 47px;
+}
+
+.gray {
+  color: gray;
+}
+
+.hire-btn {
+  background: var(--Change, #e97636);
+  font-size: 10px;
+  padding: 2px 12px;
+  border-radius: 18px;
+  color: white;
+  border: none;
+  padding: 7px 11px;
+}
+
+.main-header .nav-item {
+  position: relative;
+}
+
+.main-header .dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-header .dropdown-item {
+  position: relative;
+  padding: 10px;
+  color: #e97636;
+  border-bottom: 1px solid #e97636;
+}
+
+.main-header .category-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.main-header .submenu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #e97636;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 180px;
+}
+
+.main-header .submenu a {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid #ffffff;
+}
+
+
+/* new hamburger */
+
+/* Custom styles for the hamburger */
+.custom-toggler {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.custom-hamburger {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  display: block;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.custom-hamburger::before,
+.custom-hamburger::after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  display: block;
+  position: absolute;
+  transition: 0.3s ease-in-out;
+}
+
+.custom-hamburger::before {
+  top: -8px;
+}
+
+.custom-hamburger::after {
+  top: 8px;
+}
+
+/* Custom styles for when the hamburger is open */
+.navbar-toggler.open .custom-hamburger {
+  transform: rotate(45deg);
+}
+
+.navbar-toggler.open .custom-hamburger::before {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+.navbar-toggler.open .custom-hamburger::after {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+
+
+
+
+
+@media (max-width: 992px) {
+  .non-992 {
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .main-header .navbar-nav  {
+    margin-top: 2vh;
+  }
+
+  .main-header .nav-item  {
+    position: relative;
+    width: 100%;
+    border-radius:0px ;
+  }
+
+  .main-header .dropdown {
+    position: relative;
+    width: 100%;
+    border-radius:0px ;
+  }
+
+  .main-header .dropdown-item {
+    padding: 10px;
+    border-bottom: 1px solid #e97636;
+  }
+
+  .main-header .submenu {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .main-header .submenu a {
+  padding: 1vh 1vw;
+  }
+
+}
+
+
+
+

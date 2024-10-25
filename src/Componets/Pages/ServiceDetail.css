@@ -1,0 +1,48 @@
+.py-ServiceDetail{
+  padding: 160px 0px;
+}
+
+.service-image{
+  max-width: 40%;
+}
+
+.service-detail  p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 20px 0;
+}
+
+.bg-ser{
+  background-color: #272530;
+}
+
+
+@media (max-width: 768px) {
+  .service-detail  p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.py-ServiceDetail {
+  padding: 76px 0px;
+}
+
+}
+
+@media (max-width: 425px) {
+  .service-detail  p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.py-ServiceDetail {
+  padding: 10px 0px;
+}
+}

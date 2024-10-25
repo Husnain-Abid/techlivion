@@ -1,0 +1,161 @@
+.py-Experience{
+    padding-top: 117px;
+    padding-bottom: 140px;
+}
+
+
+.py-Experience h1{
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -1px;
+}
+
+.py-Experience h2{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+    
+
+
+.py-Experience h3{
+
+    font-size: 24px;
+    font-weight: 700;
+
+    
+margin-top:41px ;
+margin-bottom: 21px;
+    
+}
+
+
+
+    
+
+.py-Experience  p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+.mt-91{
+    margin-top: 91px;
+}
+
+.mt-71{
+    margin-top: 71px;
+}
+
+.mt-32{
+    margin-top: 32px;
+}
+
+.exp-image{
+    height: 208px;
+}
+
+
+.border-exp{
+    border-radius: 6px 6px 0 6px;
+    border: 1px solid #F3D1BF
+}
+
+.p-46{
+    padding: 46px;
+}
+
+
+@media (max-width: 991px) {
+    .mt-71 {
+        margin-top: 20px;
+    }
+
+    .exp-image {
+        height: 381px;
+    }
+
+    .mt-32{
+        margin-top: 20px;
+    }
+
+    .mt-991{
+        margin-top: 20px;
+    }
+
+    .mt-91{
+        margin-top: 20px;
+    }
+    .p-46 {
+        padding: 10px;
+  }
+  
+
+
+  }
+
+
+  @media (max-width: 575px) {
+  .p-46-575{
+    padding: 20px;
+  }
+
+  .border-exp-575{
+    border-radius: 6px 6px 0 6px;
+    border: 1px solid #F3D1BF
+  }
+
+  .border-exp{
+    border: none;
+  }
+  .exp-image {
+    height: 242px;
+}
+
+.w-youtube{
+   height: 242px;
+}
+
+
+.py-Experience h1 {
+    font-size: 39px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: -1px;
+}
+
+.py-Experience  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.py-hero-common h1 {
+    font-size: 55px;
+
+    line-height: 32px;
+    
+
+}
+
+.py-hero-common p {
+    font-size: 12px;
+
+    line-height: 24px;
+
+}
+
+.py-hero-common {
+    padding-top: 63px;
+    padding-bottom: 63px;
+}
+
+  }
+
+
+
+
+
