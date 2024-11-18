@@ -2,10 +2,16 @@
   padding: 160px 0px;
 }
 
-.service-image{
-  max-width: 40%;
+.img-box {
+  text-align: center;
 }
 
+.service-image {
+  width: 100%;         /* Makes the image responsive */
+  max-width: 400px;    /* Limits the maximum width to 300px */
+  height: auto;        /* Maintains the aspect ratio */
+  object-fit: cover; /* Ensures the entire GIF fits within the set dimensions */
+}
 .service-detail  p {
   font-size: 22px;
   font-weight: 400;

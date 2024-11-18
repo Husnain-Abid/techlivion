@@ -3,345 +3,519 @@ import { useNavigate, useParams } from "react-router-dom";
 import "./ServiceDetail.css";
 
 export default function ServiceDetail() {
-
   const navigate = useNavigate();
   const { slug } = useParams();
 
   const serviceData = [
     {
       id: 1,
-      image: "front.jpeg",
+      image: "front-end.png",
       heading: "Front-End Web Development",
       slug: "front-end",
       para: "Get the front-end portion of websites and web applications built according to your requirements from our professional team. It's the part that users see and interact with, making it your business's face. The best-suited technology is used according to the project or as per the client's requirement.",
     },
     {
       id: 2,
-      image: "back.jpeg",
+      image: "back-end.png",
       heading: "Back-End Web Development",
       slug: "back-end",
-      para: "Power your web applications with a robust backend, handling server-side logic and databases. Our back-end web development services ensure your apps run smoothly, with secure and efficient data handling, API integrations, and more.",
+      para: "We provide with professional back-end website development in order to ensure smooth running of you website.",
     },
     {
       id: 3,
-      image: "mobile.jpeg",
-      heading: "Mobile App Development",
-      slug: "mobile-app",
-      para: "Develop high-performance mobile applications for Android and iOS platforms, tailored to your business needs. From native apps to cross-platform solutions, we ensure smooth user experiences and cutting-edge functionality.",
+      image: "full-stack.jpg",
+      heading: "Full stack development",
+      slug: "full-stack",
+      para: "Get both front-end and back-end developed through us to get best out of your user interface and ensure smooth running of your Database and logic section of website.",
     },
     {
       id: 4,
-      image: "api.png",
-      heading: "API Development",
-      slug: "api-development",
-      para: "Streamline your business operations with custom API development. Our API solutions ensure smooth integration between various systems, enabling seamless communication between your applications and third-party services.",
+      image: "site-management.jpg",
+      heading: "Web-Site management",
+      slug: "site-management",
+      para: "We provide you with the maintenance, upgradation, Bug removal of your website and also provide long term maintenance contracts and short-term management services.",
     },
     {
       id: 5,
-      image: "web.png",
-      heading: "Web Application Development",
-      slug: "web-app",
-      para: "Build dynamic web applications that scale with your business needs. Our team develops secure, efficient, and feature-rich web apps that enhance user engagement and meet your business objectives.",
+      image: "desktop-development.jpeg",
+      heading: "Desktop Development",
+      slug: "desktop-development",
+      para: " Get your personalised operating system application from us through professionals.",
     },
     {
       id: 6,
-      image: "ui.jpeg",
-      heading: "UI/UX Design",
-      slug: "ui-ux",
-      para: "Deliver an exceptional user experience with our UI/UX design services. We create visually stunning and highly intuitive designs that ensure user satisfaction and boost engagement across digital platforms.",
+      image: "mobile-app.jpeg",
+      heading: "Mobile Development",
+      slug: "mobile-app",
+      para: "  We will provide you with tailor-made softwares for your smartphones, tablets, and other digital assistants.",
     },
     {
       id: 7,
-      image: "s11.jpeg",
-      heading: "2D Game Development",
-      slug: "2d-game",
-      para: "Create engaging 2D games with our expert development team. We handle everything from design to deployment, delivering games that captivate players with immersive visuals and smooth gameplay.",
+      image: "embedded-development.jpeg",
+      heading: "Embedded Development",
+      slug: "embedded-development",
+      para: " We will provide with systematic series of steps and activities involved in designing, developing, testing, deploying, and maintaining software that is embedded within a hardware system.",
     },
     {
       id: 8,
-      image: "s11.jpeg",
-      heading: "3D Game Development",
-      slug: "3d-game",
-      para: "Bring your game ideas to life with our advanced 3D game development services. We specialize in creating stunning 3D environments and characters, along with immersive gameplay experiences.",
+      image: "security-development.jpeg",
+      heading: "Security Development",
+      slug: "security-development",
+      para: " Security First! Every system requires to be secure, we provide with Secure systems development lifecycle to ensure safety of your systems from every threat.",
     },
     {
       id: 9,
-      image: "s11.jpeg",
-      heading: "Game Design",
-      slug: "game-design",
-      para: "Transform your concepts into reality with our comprehensive game design services. We focus on creating innovative game mechanics, engaging storylines, and visually appealing graphics that keep players hooked.",
+      image: "Logo Design.jpeg",
+      heading: "Logo Design",
+      slug: "logo-design",
+      para: "We help our clients, create a Logo that represents their online prescence in a visually appealing way. We will provide Logos that will create brand recognition and recall, helping you increase customer loyalty and recognition.",
     },
     {
       id: 10,
-      image: "s11.jpeg",
-      heading: "Game Testing",
-      slug: "game-testing",
-      para: "Ensure your game is bug-free and ready for launch with our thorough game testing services. Our experienced QA team conducts extensive testing to identify and fix any issues, ensuring optimal performance and user satisfaction.",
+      image: "brouchers-flyers.jpeg",
+      heading: "Brouchers / Flyers / Posters ",
+      slug: "brouchers-flyers",
+      para: "Security First! Every system requires to be secure, we provide with Secure systems development lifecycle to ensure safety of your systems from every threat.",
     },
     {
       id: 11,
-      image: "s11.jpeg",
-      heading: "VR/AR Game Development",
-      slug: "vr-ar-game",
-      para: "Explore the future of gaming with our VR/AR development services. We create immersive experiences that transport players into new worlds, enhancing their interaction with digital content.",
+      image: "outdoor-indoor-signage.jpeg",
+      heading: "Outdoor & Indoor Signage",
+      slug: "outdoor-indoor-signage",
+      para: "Captivate public from outdoors and engage within your premises through tailormade and modernly designed Signages.",
     },
     {
       id: 12,
-      image: "s8.jpeg",
-      heading: "Search Engine Optimization (SEO)",
-      slug: "seo",
-      para: "Enhance your website's visibility and drive organic traffic with our tailored SEO services. We optimize your website's on-page and off-page SEO, ensuring higher search engine rankings and increased conversions.",
+      image: "design-brand-identity.jpeg",
+      heading: "Design Brand Identity",
+      slug: "design-brand-identity",
+      para: "Get a package deal for your Design identity encompassing Logos, color palette, and other graphic elements, as well as marketing materials like business cards, product packaging, and any related services on demand.",
     },
     {
       id: 13,
-      image: "s13.jpeg",
-      heading: "Social Media Marketing",
-      slug: "social-media",
-      para: "Boost your brand presence with our comprehensive social media marketing services. We create and manage campaigns that engage your audience and drive results.",
+      image: "custom-design.jpeg",
+      heading: "Custom Design",
+      slug: "custom-design",
+      para: "Let us bring your ideas to reality through customized designed services for your products.",
     },
     {
       id: 14,
-      image: "s13.jpeg",
-      heading: "Content Marketing",
-      slug: "content-marketing",
-      para: "Attract and retain customers with our content marketing strategies. We craft compelling content that resonates with your target audience and drives engagement.",
+      image: "mobile-app-design.jpeg",
+      heading: "Mobile App Design",
+      slug: "mobile-app-design",
+      para: "We will design your mobile app to optimize its usability, accessibility, engagement, and overall user experience.",
     },
     {
       id: 15,
-      image: "s13.jpeg",
-      heading: "Email Marketing",
-      slug: "email-marketing",
-      para: "Connect with your customers through personalized email marketing campaigns. We design strategies that increase open rates, click-through rates, and conversions.",
-    },
-    {
-      id: 16,
-      image: "s1.png",
-      heading: "Pay-Per-Click Advertising (PPC)",
-      slug: "ppc",
-      para: "Maximize your ROI with our PPC advertising services. We manage campaigns that target your ideal customers, driving traffic and sales to your website.",
-    },
-    {
-      id: 17,
-      image: "s13.jpeg",
-      heading: "Influencer Marketing",
-      slug: "influencer-marketing",
-      para: "Leverage the power of influencers to promote your brand. Our influencer marketing strategies connect you with the right personalities to reach your target audience.",
-    },
-    {
-      id: 18,
-      image: "s1.png",
-      heading: "Graphic Design",
-      slug: "graphic-design",
-      para: "Transform your ideas into stunning visuals with our professional graphic design services. From logos to full branding suites, we craft designs that make a lasting impression.",
-    },
-    {
-      id: 19,
-      image: "s1.png",
-      heading: "Branding & Identity Design",
-      slug: "branding",
-      para: "Establish a strong brand identity with our branding services. We create unique and memorable brand assets that communicate your values and connect with your audience.",
-    },
-    {
-      id: 20,
-      image: "s1.png",
-      heading: "Print Design",
-      slug: "print-design",
-      para: "Bring your marketing materials to life with our print design services. We create visually appealing brochures, flyers, and more that capture attention and convey your message.",
-    },
-    {
-      id: 21,
-      image: "s1.png",
-      heading: "Web Design",
-      slug: "web-design",
-      para: "Create a stunning online presence with our web design services. We build responsive and user-friendly websites that reflect your brand and drive conversions.",
-    },
-    {
-      id: 22,
-      image: "s1.png",
-      heading: "Packaging Design",
-      slug: "packaging",
-      para: "Enhance your product's appeal with our packaging design services. We create eye-catching packaging that stands out on shelves and attracts customers.",
-    },
-    {
-      id: 23,
-      image: "s1.png",
-      heading: "User Research",
-      slug: "user-research",
-      para: "Understand your users better with our user research services. We gather insights that inform design decisions and improve user experiences.",
-    },
-    {
-      id: 24,
-      image: "s1.png",
-      heading: "Wireframing & Prototyping",
-      slug: "wireframing",
-      para: "Visualize your ideas with our wireframing and prototyping services. We create interactive prototypes that help you refine your designs before development.",
-    },
-    {
-      id: 25,
-      image: "s1.png",
-      heading: "Usability Testing",
-      slug: "usability-testing",
-      para: "Ensure your product meets user expectations with our usability testing services. We identify areas for improvement to enhance user satisfaction.",
-    },
-    {
-      id: 26,
-      image: "s1.png",
-      heading: "Interaction Design",
-      slug: "interaction-design",
-      para: "Design intuitive and engaging interactions with our interaction design services. We focus on creating experiences that captivate users.",
-    },
-    {
-      id: 27,
-      image: "s1.png",
-      heading: "Responsive Design",
-      slug: "responsive-design",
-      para: "Ensure your website looks great on all devices with our responsive design services. We create designs that adapt seamlessly to different screen sizes.",
-    },
-    {
-      id: 28,
-      image: "s11.jpeg",
-      heading: "On-Page SEO",
-      slug: "on-page-seo",
-      para: "Optimize your website's content and structure with our on-page SEO services. We improve your site's relevance and visibility in search engines.",
-    },
-    {
-      id: 29,
-      image: "s11.jpeg",
-      heading: "Off-Page SEO",
-      slug: "off-page-seo",
-      para: "Enhance your site's authority and credibility with our off-page SEO services. We implement strategies that improve your online presence.",
-    },
-    {
-      id: 30,
-      image: "s11.jpeg",
-      heading: "Technical SEO",
-      slug: "technical-seo",
-      para: "Enhance your website's performance with our technical SEO services. We optimize your site’s structure, speed, and other technical aspects to improve search engine visibility.",
-    },
-    {
-      id: 31,
-      image: "s1.png",
-      heading: "s11.jpeg",
-      slug: "keyword-research",
-      para: "Identify the best keywords for your business with our comprehensive keyword research services. We analyze trends and competition to help you rank higher on search engines.",
-    },
-    {
-      id: 32,
-      image: "s8.jpeg",
-      heading: "Seo Audit",
-      slug: "seo-audits",
-      para: "Evaluate your website’s SEO performance with our detailed audits. We identify strengths and weaknesses, providing actionable insights to enhance your SEO strategy.",
-    },
-    {
-      id: 33,
-      image: "s11.jpeg",
-      heading: "Local SEO",
-      slug: "local-seo",
-      para: "Target local customers effectively with our local SEO services. We optimize your online presence to increase visibility in local search results.",
-    },
-    {
-      id: 34,
-      image: "s10.jpeg",
-      heading: "Recruitment Services",
-      slug: "recruitment",
-      para: "Streamline your hiring process with our recruitment services. We connect you with the right talent to meet your business needs efficiently.",
-    },
-    {
-      id: 35,
-      image: "s10.jpeg",
-      heading: "Employee Training & Development",
-      slug: "training",
-      para: "Enhance your workforce’s skills with our employee training and development programs. We design customized training solutions that align with your organizational goals.",
-    },
-    {
-      id: 36,
-      image: "s9.jpeg",
-      heading: "3D Modeling",
-      slug: "3d-modeling",
-      para: "Create detailed and accurate 3D models with our expert services. We cater to various industries, delivering high-quality models for visualization and presentation.",
-    },
-    {
-      id: 37,
-      image: "s9.jpeg",
-      heading: "3D Rendering",
-      slug: "3d-rendering",
-      para: "Bring your 3D models to life with our rendering services. We produce photorealistic images and animations that effectively showcase your designs.",
-    },
-    {
-      id: 38,
-      image: "s9.jpeg",
-      heading: "Animation & Motion Graphics",
-      slug: "animation",
-      para: "Engage your audience with captivating animations and motion graphics. We create dynamic content that enhances storytelling and boosts brand recognition.",
-    },
-    {
-      id: 39,
-      image: "s9.jpeg",
-      heading: "Virtual Reality Experiences",
-      slug: "vr-experiences",
-      para: "Immerse users in your content with our virtual reality experience development. We craft interactive VR experiences that captivate and engage audiences.",
-    },
-    {
-      id: 40,
-      image: "s10.jpeg",
-      heading: "Product Prototyping",
-      slug: "product-prototyping",
-      para: "Turn your ideas into tangible products with our prototyping services. We help you visualize and refine your product concepts before moving to production.",
-    },
-    {
-      id: 41,
-      image: "s10.jpeg",
-      heading: "Performance Management",
-      slug: "performance",
-      para: "Optimize employee performance with our performance management solutions. We provide tools and strategies to help you evaluate and enhance productivity.",
-    },
-    {
-      id: 42,
-      image: "s10.jpeg",
-      heading: "Payroll Management",
-      slug: "payroll",
-      para: "Simplify your payroll process with our payroll management services. We ensure accurate and timely payroll processing, compliance with regulations, and employee satisfaction.",
-    },
-    {
-      id: 43,
-      image: "s10.jpeg",
-      heading: "HR Consulting",
-      slug: "hr-consulting",
-      para: "Enhance your HR practices with our consulting services. We provide expert advice on HR strategies, policies, and compliance to support your business growth.",
-    },
-    {
-      id: 44,
-      image: "s8.jpg",
-      heading: "Customer Support",
-      slug: "customer-support",
-      para: "Provide exceptional customer support with our dedicated services. We help you build strong relationships with your customers through effective communication and problem-solving.",
-    },
-    {
-      id: 45,
-      image: "s8.jpg",
-      heading: "Technical Support",
-      slug: "technical-support",
-      para: "Ensure smooth operation with our technical support services. We provide assistance with IT issues, software troubleshooting, and system maintenance.",
+      image: "social-media-design.jpeg",
+      heading: "Social Media Design",
+      slug: "social-media-design",
+      para: "Get optimal designs for your social media like Facebook, Instagram, TikTok, Twitter, and more, from our social media designing packages.",
     },
 
     {
+      id: 16,
+      image: "ux-research.jpeg",
+      heading: "UX Research",
+      slug: "ux-research",
+      para: "To add realistic contexts and insights to the design process, we will provide you with systematic studies of target users and their requirements.",
+    },
+    {
+      id: 17,
+      image: "ux-persona.jpeg",
+      heading: "UX Persona",
+      slug: "ux-persona",
+      para: "We provide you with your target user, as a fictitious character, so that you can better understand your customers before getting in touch with them.",
+    },
+    {
+      id: 18,
+      image: "ux-case-study.jpeg",
+      heading: "UX Case Study",
+      slug: "ux-case-study",
+      para: "Teclivion provides you with detailed analysis and narrative of user experience design projects. This will illustrate the challenges you can face while dealing with your clients, and in advance, this will give you the required edge over the competitors and provide your clients with a better experience of your services.",
+    },
+    {
+      id: 19,
+      image: "wire-framing.jpeg",
+      heading: "Wireframing",
+      slug: "wire-framing",
+      para: "Techlivion provides its clients with an overview of interactive products to establish the structure and flow of design solutions. This helps to conceive the optimal user-focused prototypes and products.",
+    },
+    {
+      id: 20,
+      image: "responsive-design.jpeg",
+      heading: "Responsive",
+      slug: "responsive",
+      para: "To ensure usability and satisfaction, Techlivion provides responsive design that makes your online page adjustable to various devices, windows, and screen sizes.",
+    },
+    {
+      id: 21,
+      image: "prototyping.jpeg",
+      heading: "Prototyping",
+      slug: "prototyping",
+      para: "Get the required prototype, be it for clients, users, or any other stakeholders, to prepare in advance the best experience for them.",
+    },
+    {
+      id: 22,
+      image: "ui-design.jpeg",
+      heading: "UI Design",
+      slug: "ui-design",
+      para: "Get the best user interfaces designed for your computers, home appliances, mobile devices, and any user interface to ensure the best user experience.",
+    },
+    {
+      id: 23,
+      image: "user-flow.jpeg",
+      heading: "User Flow",
+      slug: "user-flow",
+      para: "Techlivion provides you with diagrams, wireframes, prototypes, flowcharts, and other tools to help you understand how your user will navigate through your online presence. We will make it easy and impressive to get maximum modernization and ease for the user.",
+    },
+    {
+      id: 24,
+      image: "off-page-seo.jpeg",
+      heading: "Off Page SEO",
+      slug: "off-page-seo",
+      para: "Techlivion is your best shot to get optimal Off page SEO. It will enhance traffic to your page through link building, content marketing, social media, influencer marketing, guest postings, brand mentions, and other public relations strategies.",
+    },
+    {
+      id: 25,
+      image: "in-page-seo.jpeg",
+      heading: "In Page SEO",
+      slug: "in-page-seo",
+      para: "Techlivion will boost your online presence through improvement in site content, keywords, title tags, meta descriptions, headers, URLs, internal linking, external linking, images, user engagements, page speed, featured snippets, and schema markups. We have experienced professionals who know how to play with the online world for your benefit, remaining ethical and smart.",
+    },
+    {
+      id: 26,
+      image: "website-seo.jpeg",
+      heading: "Website SEO",
+      slug: "website-seo",
+      para: "Along with paid marketing, we also boost traffic on your page through unpaid means, and all this will be organic traffic. We will use modern tools and techniques, improving your content and designs to encourage inflow from potential clients.",
+    },
+    {
+      id: 27,
+      image: "mobile-seo.jpeg",
+      heading: "Mobile SEO",
+      slug: "mobile-seo",
+      para: "Techlivion will improve your website to make it suitable for mobile traffic, a vital part of SEO as most of the users engage through their smartphones. We will build mobile-friendly design and optimize your content for voice search so that you don't miss any part of this traffic.",
+    },
+    {
+      id: 28,
+      image: "technical-seo.jpeg",
+      heading: "Technical SEO",
+      slug: "technical-seo",
+      para: "Through crawling, indexing, rendering, and website architecture, we will optimize your site to ensure it meets the modern requirements of search engines. This will increase the organic traffic, all that you want, to your page.",
+    },
+    {
+      id: 29,
+      image: "content-creation.jpeg",
+      heading: "Content Creation",
+      slug: "content-creation",
+      para: "Our specialized team will provide you with blog posts, articles, social media posts, videos, podcasts, infographics, and other forms of media to enhance value to your online presence.",
+    },
+    {
+      id: 30,
+      image: "seo-audit.jpeg",
+      heading: "SEO Audit",
+      slug: "seo-audit",
+      para: "Get the perfect analysis of your online presence with updated tools and professionals to get the exact idea of where you stand in the market, where there is room for improvement, be it in content, speed, or other technical aspects.",
+    },
+    {
+      id: 31,
+      image: "market-analysis.jpeg",
+      heading: "Market Analysis",
+      slug: "market-analysis",
+      para: "We think market analysis is a vital step in understanding your footing and that of your competitors. It also gives you detailed insights about your target audience, such as their needs, preferences, and behaviors. This will help us both to create and design better.",
+    },
+    {
+      id: 32,
+      image: "guest-blogging.jpeg",
+      heading: "Guest Blogging",
+      slug: "guest-blogging",
+      para: "Techlivion has experts that will write for your website's blogs, which will provide a great user experience and also serve as a much-needed SEO ingredient. It is the quality that we ensure and that you can trust.",
+    },
+    {
+      id: 33,
+      image: "social-media-marketing.jpeg",
+      heading: "Social Media Marketing",
+      slug: "social-media-marketing",
+      para: "Who can neglect SMM! We provide you with technical and modernized social media marketing across all related platforms. This will increase your reach and enable potential users to easily get in touch with you.",
+    },
+    {
+      id: 34,
+      image: "seo-progress-reporting.jpeg",
+      heading: "SEO Progress Reporting",
+      slug: "seo-progress-reporting",
+      para: "Adaptation is permanent, and we believe in it. We can provide you with updates on the results SEO is having on your online presence and suggest areas for improvement. This is done with honesty and professionalism so that no aspect is missing.",
+    },
+
+    {
+      id: 35,
+      image: "core-hr.jpeg",
+      heading: "Core HR",
+      slug: "core-hr",
+      para: "Techlivion can, on demand, take up all the HR services you require, from hiring, to training, onboarding, managing, paying, and scheduling your employees for you. This way, the HR function becomes a one-window operation for you.",
+    },
+    {
+      id: 36,
+      image: "employee-performance.jpeg",
+      heading: "Employee Performance",
+      slug: "employee-performance",
+      para: "It is inevitable to monitor the performance of your employees. We provide services that offer insights about employee performance through monitoring work output, satisfaction, and comparison with the market. This helps you better understand the performance of your employees.",
+    },
+    {
+      id: 37,
+      image: "employee-database.jpeg",
+      heading: "Employee Database",
+      slug: "employee-database",
+      para: "Techlivion can provide you with software to easily maintain a database about your employees, including absenteeism, work outputs, monetary worth, demographics, and other key entries, helping you have a clear image of your company's standings.",
+    },
+    {
+      id: 38,
+      image: "lms-systems.jpeg",
+      heading: "LMS Systems",
+      slug: "lms-systems",
+      para: "Get tailor-made Learning Management Systems (LMS) to train yourself and your employees on specific tasks. We also provide suggestions based on your requirements to help you build a better training experience, not only for employees but also for the users of your product.",
+    },
+    {
+      id: 39,
+      image: "analytics.jpeg",
+      heading: "Analytics",
+      slug: "analytics",
+      para: "To improve workforce processes and promote a positive employee experience, we can provide you with the collection and application of talent data. This enables you to make informed decisions on talent acquisition and management.",
+    },
+    {
+      id: 40,
+      image: "ppc-advertising.jpeg",
+      heading: "PPC Advertising",
+      slug: "ppc-advertising",
+      para: "Increase your traffic and potential customers by paying per click on your ads. We facilitate you to get the best deal for buying traffic in addition to the organic traffic we generate for you.",
+    },
+    {
+      id: 41,
+      image: "link-building.jpeg",
+      heading: "Link Building",
+      slug: "link-building",
+      para: "Increase the rank and authority of your pages by linking them with other sites. This will not only increase the traffic to your page but also help establish you in the market.",
+    },
+    {
+      id: 42,
+      image: "social-media-marketing.jpeg",
+      heading: "Social Media Marketing",
+      slug: "social-media-marketing",
+      para: "Techlivion gives you a complete package for all the social media marketing services to help you boost your online presence.",
+    },
+    {
+      id: 43,
+      image: "content-marketing.jpeg",
+      heading: "Content Marketing",
+      slug: "content-marketing",
+      para: "Techlivion provides professional content marketing through experts who are experienced and updated with the modern requirements of the digital world.",
+    },
+    {
+      id: 44,
+      image: "ad-campaigns-designing.jpeg",
+      heading: "Ad Campaigns Designing",
+      slug: "ad-campaigns-designing",
+      para: "Techlivion provides you with the visual vocabulary of your ads, including imagery, styles, and messaging. We offer a strategic blend of creativity, precise targeting, and data analysis to positively engage target customers and achieve beneficial results.",
+    },
+    {
+      id: 45,
+      image: "content-writing.jpeg",
+      heading: "Content Writing",
+      slug: "content-writing",
+      para: "Techlivion has a dedicated team of experienced professionals to offer content writing services to boost your product and even more, to create content that represents your product. This includes both general and technical writing.",
+    },
+    {
       id: 46,
-      image: "s8.jpg",
-      heading: "Telemarketing",
-      slug: "telemarketing",
-      para: "Boost your sales efforts with our telemarketing services. We connect with potential customers, promote your products, and generate leads for your business.",
+      image: "3d-modelling.jpeg",
+      heading: "3D Modelling",
+      slug: "3d-modelling",
+      para: "Creation of accurate 3D models of products, including detailed geometries, textures, and materials. This service can cover anything from consumer electronics to furniture, machinery, or apparel. It can be used in product design, virtual prototypes, or e-commerce displays.",
     },
     {
       id: 47,
-      image: "s8.jpg",
-      heading: "Back Office Support",
-      slug: "back-office",
-      para: "Enhance your operational efficiency with our back office support services. We manage administrative tasks, allowing you to focus on core business activities.",
+      image: "3d-rendering.jpeg",
+      heading: "3D Rendering",
+      slug: "3d-rendering",
+      para: "High-quality, photorealistic renders of 3D models, often used for marketing, advertisements, or presentations. The rendering process involves lighting, shading, and environmental effects to create lifelike images. It can be used in product catalogs, advertisements, or website displays.",
     },
-    
-    
+    {
+      id: 48,
+      image: "360-product-spins.jpeg",
+      heading: "360 Product Spins",
+      slug: "360-product-spins",
+      para: "Interactive 360-degree views of products that users can rotate and explore from all angles. These can be embedded on websites or apps, allowing clients to showcase their products in an engaging, interactive format. It can be used in e-commerce platforms, online product showcases.",
+    },
+    {
+      id: 49,
+      image: "ar-integration.jpeg",
+      heading: "Augmented Reality (AR) Integration",
+      slug: "ar-integration",
+      para: "Integration of 3D product models into AR applications, allowing users to view products in their real-world environment using smartphones or AR headsets. It can be used in furniture placement in homes, virtual try-ons for clothing, or product visualization in retail settings.",
+    },
+    {
+      id: 50,
+      image: "vr-product-demos.jpeg",
+      heading: "Virtual Reality (VR) Product Demos",
+      slug: "vr-product-demos",
+      para: "Fully immersive VR environments where clients or customers can interact with 3D product models, test features, or explore virtual showrooms. It can be used in trade shows, virtual product demos, or interactive training programs.",
+    },
+    {
+      id: 51,
+      image: "3d-animation.jpeg",
+      heading: "3D Animation",
+      slug: "3d-animation",
+      para: "Creation of animated 3D models that demonstrate how a product functions, its features, or its assembly process. These animations can be used for marketing or instructional content. It can be used in product demos, explainer videos, or assembly guides.",
+    },
+    {
+      id: 52,
+      image: "custom-configurators.jpeg",
+      heading: "Custom Configurators",
+      slug: "custom-configurators",
+      para: "Interactive 3D product configurators that allow users to customize product features such as colors, materials, or components in real-time. It can be used in automotive configurators, furniture customization, or fashion product variations.",
+    },
+    {
+      id: 53,
+      image: "3d-prototyping.jpeg",
+      heading: "3D Prototyping and Simulation",
+      slug: "3d-prototyping",
+      para: "Digital prototyping services that allow clients to visualize and test product designs before physical production. Includes simulation of mechanical properties or product behavior under different conditions. It can be used in engineering prototypes, product testing, or virtual prototyping for R&D.",
+    },
+    {
+      id: 54,
+      image: "3d-printing-pre-visualization.jpeg",
+      heading: "3D Printing Pre-Visualization",
+      slug: "3d-printing-pre-visualization",
+      para: "Providing visual previews of how a 3D printed product will look once completed. This service helps clients adjust designs before sending them to a 3D printer. It can be used in rapid prototyping, pre-production design review.",
+    },
+    {
+      id: 55,
+      image: "web-based-3d-viewer-integration.jpeg",
+      heading: "Web-based 3D Viewer Integration",
+      slug: "web-based-3d-viewer",
+      para: "Embedding 3D product visualizations directly onto websites with interactive viewers, allowing users to explore and interact with products within a web browser. It can be used in e-commerce websites, product portfolios, or client presentations.",
+    },
+
+    {
+      id: 56,
+      image: "back-office-outsourcing.jpeg",
+      heading: "Back Office Outsourcing",
+      slug: "back-office-outsourcing",
+      para: "Outsource your HR management, payroll, finance and accounting, information technology management, data entry to Techlivion. We will fulfill these operations professionally and as you would have cared for these. We have teams and individuals that are experienced in handling these tasks."
+    },
+    {
+      id: 57,
+      image: "front-office-outsourcing.jpeg",
+      heading: "Front Office Outsourcing",
+      slug: "front-office-outsourcing",
+      para: "Techlivion can handle your sales, marketing, customer services, tech-support, and other business processes requiring direct contact with customers, with dignity, pride, and professionalism."
+    },
+    {
+      id: 58,
+      image: "accounting.jpeg",
+      heading: "Accounting",
+      slug: "accounting",
+      para: "You can outsource your accounting works to our experts. We will provide you with accounting management, bookkeeping, payroll processing, financial analysis, auditing, bank reconciliation, management consulting, balance sheets, taxes and other such services, with confidence and reliance."
+    },
+    {
+      id: 59,
+      image: "it-outsourcing.jpeg",
+      heading: "IT Outsourcing",
+      slug: "it-outsourcing",
+      para: "Outsource all your IT requirements to us, may it be software development of any kind or management, or software services, to Techlivion and we will give you an experience worth marketing about."
+    },
+    {
+      id: 60,
+      image: "onshore-offshore-bpo.jpeg",
+      heading: "Onshore / Off Shore BPO",
+      slug: "onshore-offshore-bpo",
+      para: "Outsource your business processes, be these in your country or any other country of your requirement. We manage such services on your behalf so that you can be trouble-free from processes and focus on other aspects of your business."
+    },
+    {
+      id: 61,
+      image: "data-entry.jpeg",
+      heading: "Data Entry",
+      slug: "data-entry",
+      para: "Like other services, data entry services are provided by Techlivion at competitive prices and with reliability and time efficiency."
+    },
+    {
+      id: 62,
+      image: "marketing-outsourcing.jpeg",
+      heading: "Marketing",
+      slug: "marketing-outsourcing",
+      para: "Outsource your company's marketing to us and we will help you enhance your reach in the target areas to help you grow."
+    },
+    {
+      id: 63,
+      image: "healthcare.jpeg",
+      heading: "Health Care",
+      slug: "healthcare",
+      para: "We provide healthcare process outsourcing, including coding, billing services, transcription, calling, e-mail support and others, to help individuals and organizations in the medical field."
+    },
+    {
+      id: 64,
+      image: "data-analysis.jpeg",
+      heading: "Data Analysis",
+      slug: "data-analysis",
+      para: "Interpret complex data through us to make enhanced decisions and customer experience. We offer skills of both technical type like data cleaning and statistical analysis and also equally important skills of critical thinking and communication."
+    },
+    {
+      id: 65,
+      image: "technical-support.jpeg",
+      heading: "Technical Support",
+      slug: "technical-support",
+      para: "Are you frustrated from the daily interruptions caused by IT lags? Allow us to help you provide with technical support that resolves software, and network problems. It will enhance productivity and ensure the smooth operations of technology and maximize its performance."
+    },
+    {
+      id: 66,
+      image: "mobile-game-development.jpeg",
+      heading: "Mobile Game Development (IOS / Android)",
+      slug: "mobile-game-development",
+      para: "Techlivion specializes in Game Development. We develop gaming apps for Android, iOS, and other mobile operating systems. We can work to realize your ideas about games and also provide you with innovative and workable ideas."
+    },
+    {
+      id: 67,
+      image: "pc-console-ar-vr-games.jpeg",
+      heading: "PC, Console, AR / VR Games",
+      slug: "pc-console-ar-vr-games",
+      para: "Like Mobile gaming apps, we also provide apps that will run on PC, Consoles, AR / VR technologies. We are your partners from conceptualization to user feedback."
+    },
+    {
+      id: 68,
+      image: "ai-game-development.jpeg",
+      heading: "AI Game Development",
+      slug: "ai-game-development",
+      para: "AI is the thing in gaming today. We can develop for you responsive and adaptive games that will give ultimate gaming experience to you and / or to your clients."
+    },
+    {
+      id: 69,
+      image: "vr-game-development.jpeg",
+      heading: "Virtual Reality Game Development",
+      slug: "vr-game-development",
+      para: "VR reality games development will be specifically designed to be played with VR hardware. This is done through experts."
+    },
+    {
+      id: 70,
+      image: "augmented-reality-game-development.jpeg",
+      heading: "Augmented Reality Game Development",
+      slug: "ar-game-development",
+      para: "As VR game, we also offer our clients AR games development at the most competitive rates and give users the ultimate gaming experience of augmented reality."
+    },
+    {
+      id: 71,
+      image: "game-art-design.jpeg",
+      heading: "Game Art Design Services",
+      slug: "game-art-design",
+      para: "Techlivion has expert designers who will design the games with the software engineers to artistically design the backgrounds and characters of the games."
+    },
+    {
+      id: 72,
+      image: "gamification-services.jpeg",
+      heading: "Gamification Services",
+      slug: "gamification-services",
+      para: "Techlivion can provide you with gamification services that will integrate the games with websites, online communities, learning management systems, and other online platforms to engage the users, help them interact, inspire, collaborate, and share."
+    }
+
   ];
-  
 
   // Find the service data that matches the param id
   const service = serviceData.find((service) => service.slug === slug);
@@ -355,16 +529,19 @@ export default function ServiceDetail() {
       <div className="service-detail epilogue">
         <div className="bg-ser">
           <div className="container text-white py-ServiceDetail">
-            <p className="text-center">
+            
+            <div className="text-center img-box">
               <img
                 src={`../assets/service-img/${service.image}`}
                 alt={service.heading}
                 className="service-image"
               />
-            </p>
+            </div>
+
+
             <div className="row mt-5">
-              <div className="col-12">
-                <h2 className="text-center">{service.heading}</h2>
+              <div className="col-12 text-center">
+                <h2 >{service.heading}</h2>
                 <p>{service.para}</p>
               </div>
             </div>

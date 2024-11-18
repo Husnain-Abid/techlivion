@@ -1,0 +1,22 @@
+.news {
+    min-height: 100vh;
+    background-color: white;
+}
+
+.news .card a {
+color: #2F2E41 ;
+}
+
+.hero-section {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-orange {
+    background-color: #e97636;
+}
+
+
+

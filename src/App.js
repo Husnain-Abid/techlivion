@@ -8,6 +8,9 @@ import Contact from './Componets/Pages/Contact';
 import Services from './Componets/Pages/Services';
 import About from './Componets/Pages/About';
 import ServiceDetail from './Componets/Pages/ServiceDetail';
+import CaseStudy from './Componets/Pages/CaseStudy';
+import News from './Componets/Pages/News';
+import JoinUs from './Componets/Pages/JoinUs';
 
 
 
@@ -23,6 +26,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
+        <Route path="/case-studies" element={<CaseStudy />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/join-us" element={<JoinUs/>} />
         {/* Add more routes as needed */}
 
         <Route path="/services/:slug" element={<ServiceDetail/>} />

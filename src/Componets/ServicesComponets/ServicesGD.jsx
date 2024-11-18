@@ -3,141 +3,207 @@ import { Link } from "react-router-dom"; // Import Link for routing
 import "./ServicesGD.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
-  faEnvelope, 
+  faCode, 
   faGamepad, 
   faBullhorn, 
-  faPalette, 
-  faDesktop, 
-  faSearch, 
-  faUsers, 
+  faPaintBrush, 
+  faChartLine, 
+  faObjectGroup, 
+  faUserTie, 
   faCube, 
   faHeadset 
 } from '@fortawesome/free-solid-svg-icons';
 
 
-
-
-  // Function to scroll to the top of the page
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth' // Smooth scrolling effect
-    });
-  };
+// Icon mapping for each title
+const iconMapping = {
+  "Website Development": faCode,                     // Code icon for development
+  "Graphic Designing": faPaintBrush,                 // Paintbrush for graphic design work
+  "UI UX Designs": faObjectGroup,                    // Object Group for UI/UX design
+  "SEO Services": faChartLine,                       // Chart line for SEO growth and analysis
+  "Human Resource Management": faUserTie,            // User with tie to represent HR and professionals
+  "Digital Marketing": faBullhorn,                   // Bullhorn for marketing and outreach
+  "3D Product Visualization": faCube,                // Cube icon for 3D modeling and visualization
+  "BPO Services": faHeadset,                         // Headset for support and customer service in BPO
+  "Game Development": faGamepad 
+};
+// Function to scroll to the top of the page
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth' // Smooth scrolling effect
+  });
+};
 
 export default function ServicesGD() {
   const [openIndex, setOpenIndex] = useState(null); // Track which section is open
 
   // Toggle function to expand/collapse the section
   const toggleCollapse = (index) => {
-    if (openIndex === index) {
-      setOpenIndex(null); // Close if already open
-    } else {
-      setOpenIndex(index); // Open the clicked section
-    }
+    setOpenIndex(openIndex === index ? null : index); // Toggle open/close
   };
+
+
 
   const servicesData = [
     {
-      title: "Development",
-      icon: faEnvelope,
+      title: "Website Development",
       services: [
         { name: "Front-End Web Development", path: "/services/front-end" },
         { name: "Back-End Web Development", path: "/services/back-end" },
-        { name: "Mobile App Development", path: "/services/mobile-app" },
-        { name: "API Development", path: "/services/api-development" },
-        { name: "Web Application Development", path: "/services/web-app" },
-        { name: "UI/UX Design", path: "/services/ui-ux" },
+        { name: "Full Stack Development", path: "/services/full-stack" },
+        { name: "Web-Site Management", path: "/services/site-management" },
+        { name: "Desktop Development", path: "/services/desktop-development" },
+        { name: "Mobile Development", path: "/services/mobile-app" },
+        { name: "Embedded Development", path: "/services/embedded-development" },
+        { name: "Security Development", path: "/services/security-development" },
       ],
     },
     {
-      title: "Game Development",
-      icon: faGamepad,
+      title: "Graphic Designing",
       services: [
-        { name: "2D Game Development", path: "/services/2d-game" },
-        { name: "3D Game Development", path: "/services/3d-game" },
-        { name: "Game Design", path: "/services/game-design" },
-        { name: "Game Testing", path: "/services/game-testing" },
-        { name: "VR/AR Game Development", path: "/services/vr-ar-game" },
+        { name: "Logo Design", path: "/services/logo-design" },
+        {
+          name: "Brouchers / Flyers / Posters",
+          path: "/services/brouchers-flyers",
+        },
+        { name: "Outdoor & Indoor Signage", path: "/services/outdoor-indoor-signage" },
+        { name: "Design Brand Identity", path: "/services/design-brand-identity" },
+        { name: "Custom Design", path: "/services/custom-design" },
+        { name: "Mobile App Design", path: "/services/mobile-app-design" },
+        { name: "Social Media Design", path: "/services/social-media-design" },
       ],
     },
     {
-      title: "Marketing",
-      icon: faBullhorn,
+      title: "UI UX Designs",
       services: [
-        { name: "Search Engine Optimization (SEO)", path: "/services/seo" },
-        { name: "Social Media Marketing", path: "/services/social-media" },
-        { name: "Content Marketing", path: "/services/content-marketing" },
-        { name: "Email Marketing", path: "/services/email-marketing" },
-
-        { name: "Influencer Marketing", path: "/services/influencer-marketing" },
+        { name: "UX Research", path: "/services/ux-research" },
+        { name: "UX Persona", path: "/services/ux-persona" },
+        { name: "UX Case Study", path: "/services/ux-case-study" },
+        { name: "Wire framing", path: "/services/wire-framing" },
+        { name: "Prototyping", path: "/services/prototyping" },
+        { name: "UI Design", path: "/services/ui-design" },
+        { name: "User Flow", path: "/services/user-flow" },
       ],
     },
     {
-      title: "Design",
-      icon: faPalette,
+      title: "SEO Services",
       services: [
-        { name: "Graphic Design", path: "/services/graphic-design" },
-        { name: "Branding & Identity Design", path: "/services/branding" },
-        { name: "Print Design", path: "/services/print-design" },
-        { name: "Web Design", path: "/services/web-design" },
-        { name: "Packaging Design", path: "/services/packaging" },
-      ],
-    },
-    {
-      title: "UI/UX",
-      icon: faDesktop,
-      services: [
-        { name: "User Research", path: "/services/user-research" },
-        { name: "Wireframing & Prototyping", path: "/services/wireframing" },
-        { name: "Usability Testing", path: "/services/usability-testing" },
-        { name: "Interaction Design", path: "/services/interaction-design" },
-        { name: "Responsive Design", path: "/services/responsive-design" },
-      ],
-    },
-    {
-      title: "SEO",
-      icon: faSearch,
-      services: [
-        { name: "On-Page SEO", path: "/services/on-page-seo" },
-
+        { name: "Off Page SEO", path: "/services/off-page-seo" },
+        { name: "IN Page SEO", path: "/services/in-page-seo" },
+        { name: "Website SEO", path: "/services/website-seo" },
+        { name: "Mobile SEO", path: "/services/mobile-seo" },
         { name: "Technical SEO", path: "/services/technical-seo" },
-        { name: "Keyword Research", path: "/services/keyword-research" },
-        { name: "SEO Audits", path: "/services/seo-audits" },
-        { name: "Local SEO", path: "/services/local-seo" },
+        { name: "Content Creation", path: "/services/content-creation" },
+        { name: "SEO Audit", path: "/services/seo-audit" },
       ],
     },
     {
       title: "Human Resource Management",
-      icon: faUsers,
       services: [
-        { name: "Recruitment Services", path: "/services/recruitment" },
-        { name: "Employee Training & Development", path: "/services/training" },
-        { name: "Performance Management", path: "/services/performance" },
-        { name: "Payroll Management", path: "/services/payroll" },
-        { name: "HR Consulting", path: "/services/hr-consulting" },
+        { name: "Core HR", path: "/services/core-hr" },
+        { name: "Employee Performance", path: "/services/employee-performance" },
+        { name: "Employee Database", path: "/services/employee-database" },
+        { name: "LMS Systems", path: "/services/lms-systems" },
+        { name: "Analytics", path: "/services/analytics" },
+      ],
+    },
+    {
+      title: "Digital Marketing",
+      services: [
+        { name: "PPC Advertising", path: "/services/ppc-advertising" },
+        { name: "Link Building", path: "/services/link-building" },
+        {
+          name: "Social Media Marketing",
+          path: "/services/social-media-marketing",
+        },
+        { name: "Content Marketing", path: "/services/content-marketing" },
+        {
+          name: "Ad Campaigns Designing",
+          path: "/services/ad-campaigns-designing",
+        },
+        { name: "Content Writing", path: "/services/content-writing" },
       ],
     },
     {
       title: "3D Product Visualization",
-      icon: faCube,
       services: [
-        { name: "3D Modeling", path: "/services/3d-modeling" },
+        { name: "3D Modelling", path: "/services/3d-modelling" },
         { name: "3D Rendering", path: "/services/3d-rendering" },
-        { name: "Animation & Motion Graphics", path: "/services/animation" },
-        { name: "Virtual Reality Experiences", path: "/services/vr-experiences" },
-        { name: "Product Prototyping", path: "/services/product-prototyping" },
+        { name: "360 Product Spins", path: "/services/360-product-spins" },
+        {
+          name: "Augmented Reality (AR) Integration",
+          path: "/services/ar-integration",
+        },
+        {
+          name: "Virtual Reality (VR) Product Demos",
+          path: "/services/vr-product-demos",
+        },
+        { name: "3D Animation", path: "/services/3d-animation" },
+        { name: "Custom Configurators", path: "/services/custom-configurators" },
+        {
+          name: "3D Prototyping and Simulation",
+          path: "/services/3d-prototyping",
+        },
+        {
+          name: "3D Printing Pre-Visualization",
+          path: "/services/3d-printing-pre-visualization",
+        },
+        {
+          name: "Web-based 3D Viewer Integration",
+          path: "/services/web-based-3d-viewer",
+        },
       ],
     },
     {
       title: "BPO Services",
-      icon: faHeadset,
       services: [
-        { name: "Customer Support", path: "/services/customer-support" },
+        {
+          name: "Back Office Outsourcing",
+          path: "/services/back-office-outsourcing",
+        },
+        {
+          name: "Front Office Outsourcing",
+          path: "/services/front-office-outsourcing",
+        },
+        { name: "Accounting", path: "/services/accounting" },
+        { name: "IT", path: "/services/it-outsourcing" },
+        {
+          name: "Onshore / Offshore BPO",
+          path: "/services/onshore-offshore-bpo",
+        },
+        { name: "Data Entry", path: "/services/data-entry" },
+        { name: "Marketing", path: "/services/marketing-outsourcing" },
+        { name: "Healthcare", path: "/services/healthcare" },
+        { name: "Data Analysis", path: "/services/data-analysis" },
         { name: "Technical Support", path: "/services/technical-support" },
-     
-        { name: "Telemarketing", path: "/services/telemarketing" },
-        { name: "Back Office Support", path: "/services/back-office" },
+      ],
+    },
+    {
+      title: "Game Development",
+      services: [
+        {
+          name: "Mobile Game Development (iOS / Android)",
+          path: "/services/mobile-game-development",
+        },
+        {
+          name: "PC, Console, AR / VR Games",
+          path: "/services/pc-console-ar-vr-games",
+        },
+        { name: "AI Game Development", path: "/services/ai-game-development" },
+        {
+          name: "Virtual Reality Game Development",
+          path: "/services/vr-game-development",
+        },
+        {
+          name: "Augmented Reality Game Development",
+          path: "/services/ar-game-development",
+        },
+        { name: "Game Art Design Services", path: "/services/game-art-design" },
+        {
+          name: "Gamification Services",
+          path: "/services/gamification-services",
+        },
       ],
     },
   ];
@@ -145,49 +211,49 @@ export default function ServicesGD() {
 
   return (
     <div className="container epilogue py-5">
-      <div className="row mb-3">
-        {servicesData.map((section, index) => (
-          <div className="col-lg-6" key={index}>
-            <div className="d-flex align-items-center justify-content-between">
-              <div className="d-flex justify-content-center align-items-center">
-                <span className="circle-icon d-flex align-items-center">
-                  <FontAwesomeIcon icon={section.icon} />
-                </span>
-                <h1 className="ps-2 mb-0 question-heading">{section.title}</h1>
-              </div>
-
-              {/* Toggle Button */}
-              <div>
-                <img
-                  src="../assets/down.png"
-                  alt="Toggle Content"
-                  className="toggle-btn"
-                  onClick={() => toggleCollapse(index)}
-                  style={{
-                    cursor: "pointer",
-                    transform: openIndex === index ? "rotate(180deg)" : "rotate(0)",
-                  }}
-                />
-              </div>
+    <div className="row mb-3">
+      {servicesData.map((section, index) => (
+        <div className="col-lg-6" key={index}>
+          <div className="d-flex align-items-center justify-content-between">
+            <div className="d-flex justify-content-center align-items-center">
+              <span className="circle-icon d-flex align-items-center">
+                <FontAwesomeIcon icon={iconMapping[section.title]} />
+              </span>
+              <h1 className="ps-2 mb-0 question-heading">{section.title}</h1>
             </div>
 
-            {/* Collapsible content */}
-            <div className={`collapse ${openIndex === index ? "show" : ""}`}>
-              <div className="mt-3 p-3 border-expand">
-                <div className="d-flex flex-wrap">
-                  {section.services.map((service, serviceIndex) => (
-                    <Link to={service.path} className="border-tag mt-2 me-2 no-underline" key={serviceIndex} onClick={scrollToTop}>
-                      {service.name}
-                    </Link>
-                  ))}
-                </div>
-              </div>
+            {/* Toggle Button */}
+            <div>
+              <img
+                src="../assets/down.png"
+                alt="Toggle Content"
+                className="toggle-btn"
+                onClick={() => toggleCollapse(index)}
+                style={{
+                  cursor: "pointer",
+                  transform: openIndex === index ? "rotate(180deg)" : "rotate(0)",
+                }}
+              />
             </div>
-
-            <div className="questionBotBorder my-3"></div>
           </div>
-        ))}
-      </div>
+
+          {/* Collapsible content */}
+          <div className={`collapse ${openIndex === index ? "show" : ""}`}>
+            <div className="mt-3 p-3 border-expand">
+              <div className="d-flex flex-wrap">
+                {section.services.map((service, serviceIndex) => (
+                  <Link to={service.path} className="border-tag mt-2 me-2 no-underline" key={serviceIndex} onClick={scrollToTop}>
+                    {service.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="questionBotBorder my-3"></div>
+        </div>
+      ))}
     </div>
+  </div>
   );
 }
