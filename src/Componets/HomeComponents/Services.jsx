@@ -1,5 +1,6 @@
 import React from "react";
 import "./Services.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Services() {
   const services = [
@@ -22,42 +23,45 @@ export default function Services() {
       imageSrc: "../assets/S3.png",
     },
     {
-        id: 4,
-        title: "Graphic",
-        title1: "Designing",
-        imageSrc: "../assets/S4.png",
-      },
-      {
-        id: 5,
-        title: "Digital ",
-        title1: "Marketing",
-        imageSrc: "../assets/S5.png",
-      },
-      {
-        id: 6,
-        title: "Search Engine ",
-        title1: "Optimization",
-        imageSrc: "../assets/S6.png",
-      },
-      {
-        id: 7,
-        title: "3D Product",
-        title1: "Visualization",
-        imageSrc: "../assets/S7.png",
-      },
-      {
-        id: 8,
-        title: "Human Resource",
-        title1: "Management",
-        imageSrc: "../assets/S8.png",
-      },
-      {
-        id: 9,
-        title: "BPO",
-        title1: "Services",
-        imageSrc: "../assets/S9.png",
-      },
+      id: 4,
+      title: "Graphic",
+      title1: "Designing",
+      imageSrc: "../assets/S4.png",
+    },
+    {
+      id: 5,
+      title: "Digital ",
+      title1: "Marketing",
+      imageSrc: "../assets/S5.png",
+    },
+    {
+      id: 6,
+      title: "Search Engine ",
+      title1: "Optimization",
+      imageSrc: "../assets/S6.png",
+    },
+    // {
+    //   id: 7,
+    //   title: "3D Product",
+    //   title1: "Visualization",
+    //   imageSrc: "../assets/S7.png",
+    // },
+    // {
+    //   id: 8,
+    //   title: "Human Resource",
+    //   title1: "Management",
+    //   imageSrc: "../assets/S8.png",
+    // },
+    // {
+    //   id: 9,
+    //   title: "BPO",
+    //   title1: "Services",
+    //   imageSrc: "../assets/S9.png",
+    // },
   ];
+
+
+const navigate = useNavigate();
 
   return (
     <div className="bg-services Rubik text-white">
@@ -90,6 +94,12 @@ export default function Services() {
               </div>
             ))}
           </div>
+
+          <div className="mt-5">
+            <button className="btn-service bg-dark" onClick={()=> navigate("/services")}>More Services</button>
+          </div>
+
+
         </div>
       </div>
     </div>

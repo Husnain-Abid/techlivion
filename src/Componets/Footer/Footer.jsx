@@ -46,15 +46,15 @@ export default function Footer() {
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-6 footer-link">
             <h4 className="footer-headlines mb-headline">Contact</h4>
-            <p>email@gmail.com</p>
-            <p>+10000000000</p>
-            <p>United States</p>
+            <p>info@techlivion.com</p>
+            <p>+923324624623</p>
+            <p> Main Raiwind Road, Lahore, Pakistan.            </p>
           </div>
 
           <div className="col-lg-3 col-md-6  col-sm-6  my-auto mt-768">
             <div className="d-flex text-white justify-content-between">
               {/* Add social media icons */}
-              <FontAwesomeIcon icon={faFacebook} size="2x" />
+               <FontAwesomeIcon icon={faFacebook} size="2x" />
               <FontAwesomeIcon icon={faInstagram} size="2x" />
               <FontAwesomeIcon icon={faYoutube} size="2x" />
               <FontAwesomeIcon icon={faTwitter} size="2x" />

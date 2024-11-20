@@ -11,6 +11,7 @@ import ServiceDetail from './Componets/Pages/ServiceDetail';
 import CaseStudy from './Componets/Pages/CaseStudy';
 import News from './Componets/Pages/News';
 import JoinUs from './Componets/Pages/JoinUs';
+import Quote from './Componets/Pages/Quote';
 
 
 
@@ -19,11 +20,14 @@ function App() {
   return (
     <Router>
  
+<div className='main'>
+
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/quote" element={<Quote />} />
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/case-studies" element={<CaseStudy />} />
@@ -35,6 +39,10 @@ function App() {
        
       </Routes>
       <Footer />
+
+
+</div>
+
 
     </Router>
   );

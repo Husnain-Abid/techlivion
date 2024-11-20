@@ -4,15 +4,9 @@
     background-color: white;
 }
 
-.news .card a {
-color: #2F2E41 ;
-}
-
-.hero-section {
-    height: 60vh;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
+.join-us .btn-join{
+    color: white;
+    background-color: #2f2e41;
 }
 
 .join-us .form-check-input:checked {

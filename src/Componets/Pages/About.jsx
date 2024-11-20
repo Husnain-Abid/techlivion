@@ -3,7 +3,6 @@ import AboutHero from '../AboutComponents/AboutHero'
 import AboutExperince from '../AboutComponents/AboutExperince'
 import AboutTeam from '../AboutComponents/AboutTeam'
 import AboutTestimonials from '../AboutComponents/AboutTestimonials'
-import AboutFAQ from '../AboutComponents/AboutFAQ'
 
 
 export default function About() {
@@ -15,7 +14,6 @@ export default function About() {
 <AboutTeam/>
 <AboutTestimonials/>
 
-<AboutFAQ/>
 
 </>
   )

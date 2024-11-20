@@ -13,7 +13,7 @@ export default function AboutExperince() {
             Design Agency</h1>
         </div>
         <div className="col-lg-6 mt-991">
-            <p className='mb-0'>Techlivion is a distinguished software development company with a primary focus on catering to startups, entrepreneurs, and established enterprises, who contribute to innovation and create opportunities for the broader public. Our dedicated team is committed to providing comprehensive services, encompassing idea brainstorming, meticulous design, development, and ultimately facilitating the successful launch of your project into the market. We help optimize the businesses through our services, to make the businesses grow, stay up to date, and reach new heights of performance. 
+            <p className='mb-0'>Techlivion is a distinguished software development company with a primary focus on catering to startups, entrepreneurs, and established enterprises, who contribute to innovation and create opportunities for the broader public. Our dedicated team is committed to providing comprehensive services, encompassing idea brainstorming, meticulous design, development, and ultimately facilitating the successful launch of your project into the market. We help optimize the businesses through our services, to make the businesses grow, stay up to date, and reach new heights of performance.
             </p>
         </div>
            {/* top */}

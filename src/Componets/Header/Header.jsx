@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Header.css"; // Ensure to add styles for the custom hamburger
 
 const servicesData = [
@@ -191,6 +191,10 @@ export default function Header() {
     }
   };
 
+  const navigate = useNavigate();
+
+
+
   return (
     <div className="bg-blk main-header">
       <div className="container">
@@ -228,7 +232,8 @@ export default function Header() {
                   onMouseEnter={() => setIsServicesDropdownVisible(true)}
                   onMouseLeave={() => setIsServicesDropdownVisible(false)}
                 >
-                  <Link className="nav-link text-white" to="/services">
+                  {/* <Link className="nav-link text-white" to="/services"> */}
+                  <Link className="nav-link text-white" >
                     Services
                   </Link>
                   {isServicesDropdownVisible && (
@@ -297,7 +302,7 @@ export default function Header() {
                 <li className="gray pe-3 non-992">|</li>
               </ul>
               <div>
-                <button className="hire-btn non-992">Get A Quote</button>
+                <button className="hire-btn non-992" onClick={()=>navigate("/quote")}>Get A Quote</button>
               </div>
             </div>
           </div>

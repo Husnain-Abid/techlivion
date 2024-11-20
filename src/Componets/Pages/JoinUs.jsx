@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { ArrowRight, BarChart2, Lightbulb, Target, Quote } from "lucide-react";
 import "../../Styles/JoinUs.css";
+import { useNavigate } from "react-router-dom";
 
 export default function JoinUs() {
 
@@ -26,6 +27,7 @@ export default function JoinUs() {
     // Here you would typically send the data to your backend
   };
 
+const navigate = useNavigate();
 
   return (
     <div className="join-us">
@@ -37,7 +39,7 @@ export default function JoinUs() {
             Be part of something extraordinary. Connect, learn, and grow with
             us.
           </p>
-          <button className="btn btn-secondary btn-lg">Get Started Now</button>
+          <button className="btn btn-join ">Get Started Now</button>
         </div>
       </section>
 
@@ -162,7 +164,7 @@ export default function JoinUs() {
                       </label>
                     </div>
                   </div>
-                  <button type="submit" className="btn btn-secondary w-100">
+                  <button type="submit" className="btn btn-join w-100">
                     Submit Application
                   </button>
                 </form>
@@ -220,7 +222,7 @@ export default function JoinUs() {
           <p className="lead mb-4">
             Join our community today and start your journey towards success.
           </p>
-          <button className="btn btn-secondary btn-lg">Join Now</button>
+          <button className="btn btn-join" onClick={()=> navigate("/contact")}>Join Now</button>
         </div>
       </section>
 

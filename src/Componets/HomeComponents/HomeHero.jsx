@@ -14,8 +14,8 @@ export default function HomeHero() {
             </div>
 
             <h1>
-              We’re Help <br className="none-425" />
-              To Build Your <br className="none-425" />
+              We’re Here <br className="none-425" />
+              to Help Build Your <br className="none-425" />
               Dream Project
             </h1>
 
@@ -38,16 +38,16 @@ export default function HomeHero() {
 
         <div className="row section-2">
           <div className="col-lg-4 my-auto box-1">
-            <h3>42%</h3>
+            <h3>42+</h3>
             <p>Years of experience</p>
           </div>
           <div className="col-lg-4  box-2">
             <h3>73+</h3>
-            <p>Agency members</p>
+            <p>Dedicated Agency Members</p>
           </div>
           <div className="col-lg-4  box-1">
-            <h3>5.000</h3>
-            <p>Projects complete</p>
+            <h3>5,000+</h3>
+            <p>Projects completed</p>
           </div>
         </div>
 
@@ -65,7 +65,7 @@ export default function HomeHero() {
 
           <div className="col-lg-6 mt-992 my-auto">
             <h3>
-              Why you should choose <br /> Techlivion
+              Why you should choose <br /> Techlivion?
             </h3>
 
             <p className="Hero-para">

@@ -71,7 +71,7 @@ export default function ContactMain() {
                 </span>
                 <p className="mb-0 ps-2">Phone</p>
               </div>
-              <p className="mb-0 mt-20">+1 (234) 567-89-00</p>
+              <p className="mb-0 mt-20">+923324624623</p>
             </div>
           </div>
           <div className="col-12 col-md-4 d-flex align-items-center border-Mid-Hello">
@@ -83,7 +83,7 @@ export default function ContactMain() {
                 </span>
                 <p className="mb-0 ps-2 orange">EMail</p>
               </div>
-              <p className="mb-0 mt-20">info@agency.com</p>
+              <p className="mb-0 mt-20">info@techlivion.com</p>
             </div>
           </div>
 
@@ -96,7 +96,7 @@ export default function ContactMain() {
                 </span>
                 <p className="mb-0 ps-2">Address</p>
               </div>
-              <p className="mb-0 mt-20">2247 Lunetta Street, TX 76301</p>
+              <p className="mb-0 mt-20">Main Raiwind Road, Lahore, Pakistan</p>
             </div>
           </div>
 
@@ -107,39 +107,6 @@ export default function ContactMain() {
 
       {/* subbox */}
         
-    
-
-      <div className="p-2 mt-PortSub pops ">
-          <div className="row border-vision ">
-            <div className="col-lg-6 p-3 ps-5 text-white my-auto">
-              <h2>Stay in the loop</h2>
-              <p>
-                Join now with <span className="bold">TECHLIVION</span> to get
-                the latest news
-              </p>
-            </div>
-
-            {/* Bot box */}
-
-            <div className="col-lg-6 my-auto p-VisionBotBox">
-              <div className="d-flex  align-items-center row">
-                <div className="col-6 col-md-8">
-                  <input
-                    type="Enter your email"
-                    className="input-sub "
-                    placeholder="Enter your email"
-                  />
-                </div>
-
-                <div className="col-6 col-md-4">
-                  <button className="sub-btn ">Subscribe</button>
-                </div>
-              </div>
-            </div>
-            {/* Bot box ends */}
-          </div>
-        </div>
-      
 
       {/* subbox ends */}
     </div>

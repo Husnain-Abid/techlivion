@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { ArrowRight, BarChart2, Lightbulb, Target, Quote } from "lucide-react";
 import "../../Styles/CaseStudy.css";
+import { Link } from "react-router-dom";
 
 export default function CaseStudy() {
   const [count1, setCount1] = useState(0);
@@ -118,15 +119,14 @@ export default function CaseStudy() {
       {/* Testimonial Section */}
       <section className="py-5 bg-orange text-white text-center ">
         <div className="container">
-
-        <Quote size={64} className="opacity-50 mb-4" />
-        <blockquote className="blockquote lead mb-4">
-          "The transformation of our e-commerce platform was nothing short of
-          remarkable. The innovative solutions provided have not only boosted
-          our sales but also significantly enhanced our customer satisfaction."
-        </blockquote>
-        <p className="fw-semibold">John Doe, CEO of TechLivion</p>
-
+          <Quote size={64} className="opacity-50 mb-4" />
+          <blockquote className="blockquote lead mb-4">
+            "The transformation of our e-commerce platform was nothing short of
+            remarkable. The innovative solutions provided have not only boosted
+            our sales but also significantly enhanced our customer
+            satisfaction."
+          </blockquote>
+          <p className="fw-semibold">John Doe, CEO of TechLivion</p>
         </div>
       </section>
 
@@ -134,13 +134,13 @@ export default function CaseStudy() {
       <section className="py-5 text-center container">
         <h2 className="fw-bold mb-4">Ready to Transform Your Business?</h2>
         <p className="lead mb-4">Let's create your success story together.</p>
-        <a
-          href="#"
-          className="btn btn-lg bg-orange text-white d-inline-flex align-items-center"
+        <Link
+          to="/contact"
+          className="btn btn-dark bg-orange text-white d-inline-flex align-items-center"
         >
           Contact Us
           <ArrowRight className="ms-2" size={16} />
-        </a>
+        </Link>
       </section>
     </div>
   );

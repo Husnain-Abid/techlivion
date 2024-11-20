@@ -1,0 +1,129 @@
+.py-Hello{
+    padding-top: 173px;
+    padding-bottom: 81px;
+}
+.px-Hello {
+    padding: 0px 174px;
+}
+
+.py-Hello h1{
+
+font-size: 40.51px;
+font-weight: 800;
+line-height: 45.01px;
+letter-spacing: -1.1253482103347778px;
+margin-bottom: 68px;
+
+}
+
+.py-Hello h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.form-width{
+    width: 671px;
+}
+
+.form-width label{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 6px;
+
+    letter-spacing: -0.30000001192092896px;
+}
+
+
+
+.input-contact{
+    border-radius: 9px;
+    padding: 6px;
+    border: 0.6px solid var(--Change, #E97636)
+    
+}
+
+
+.textArea-Contact{
+    border-radius: 9px;
+    border: 0.6px solid var(--Change, #E97636)
+}
+
+
+.touch-btn {
+    background: var(--Change, #E97636);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 48px;
+    border: none;
+    margin-top: 51px;
+}
+
+.my-Hello-bar {
+    margin-top: 132px;
+    margin-bottom: 232px;
+}
+
+.border-Left-Hello {
+    border-radius: 6px 0px 0px 6px;
+    color: var(--Change, #E97636);
+
+    border: 0.82px solid var(--change-2, #2F2E41)
+}
+
+.border-Left-Hello p{
+
+}
+
+
+.border-Mid-Hello {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.border-Right-Hello {
+    border-radius: 0 6px 6px 0;
+    color: var(--Change, #E97636);
+    border: 1px solid black;
+}
+
+.circle-icon {
+    background: var(--Change, #E97636);
+    color: white;
+    border-radius: 50%;
+    padding: 11px 15px;
+}
+
+
+
+
+@media (max-width: 991px) {
+    .px-Hello {
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 569px) {
+    .px-Hello {
+        padding: 20px;
+    }
+
+}
+
+@media (max-width: 425px) {
+  
+
+    .py-Hello {
+        padding-top: 75px;
+        padding-bottom: 81px;
+    }
+
+    .my-Hello-bar {
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+}
+
+
