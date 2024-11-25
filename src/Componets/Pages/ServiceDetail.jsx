@@ -45,7 +45,7 @@ export default function ServiceDetail() {
     {
       id: 6,
       image: "mobile-app.png",
-      heading: "Mobile Development",
+      heading: "Mobile App Development",
       slug: "mobile-app",
       para: "  We will provide you with tailor-made softwares for your smartphones, tablets, and other digital assistants.",
     },

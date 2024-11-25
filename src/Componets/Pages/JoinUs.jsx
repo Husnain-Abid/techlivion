@@ -39,7 +39,7 @@ const navigate = useNavigate();
             Be part of something extraordinary. Connect, learn, and grow with
             us.
           </p>
-          <button className="btn btn-join ">Get Started Now</button>
+          <button className="btn btn-join " onClick={()=> navigate("/contact")}>Get Started Now</button>
         </div>
       </section>
 

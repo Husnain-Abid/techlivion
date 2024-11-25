@@ -35,16 +35,16 @@ export default function AboutExperince() {
            <div className="col-lg-6 mt-71">
              <div className="row">
                 <div className="col-lg-6">
-                    <img src="../assets/E1.png" alt="" className='exp-image w-100'/>
+                    <img src="../assets/E1.jpg" alt="" className='exp-image w-100'/>
                 </div>
                 <div className="col-lg-6 ">
-                <img src="../assets/E2.png" alt="" className='exp-image mt-991 w-100'/>
+                <img src="../assets/E2.jpg" alt="" className='exp-image mt-991 w-100'/>
                 </div>
                 <div className="col-lg-6">
-                <img src="../assets/E3.png" alt="" className='exp-image w-100 mt-32'/>
+                <img src="../assets/E4.jpg" alt="" className='exp-image w-100 mt-32'/>
                 </div>
                 <div className="col-lg-6">
-                <img src="../assets/E4.png" alt="" className='exp-image w-100 mt-32'/>
+                <img src="../assets/E3.jpg" alt="" className='exp-image w-100 mt-32'/>
                 </div>
              </div>
            </div>

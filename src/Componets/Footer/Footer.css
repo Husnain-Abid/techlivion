@@ -30,6 +30,19 @@ font-weight: 500;
     margin-bottom: 0;
 }
     
+.footer-link p:hover{
+    color: #e97636;
+}
+    
+
+.main-footer .social-links a{
+    color: white;
+}
+
+.main-footer .social-links a:hover{
+    color: #e97636;
+}
+    
 
 
 
