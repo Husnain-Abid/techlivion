@@ -48,21 +48,20 @@
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
   z-index: 10;
 }
 
 .main-header .dropdown-item {
   position: relative;
-  padding: 20px;
+  padding: 10px 15px;
   color: #e97636;
   border-bottom: 1px solid #e97636;
+  font-size: 14px;
 }
 
 .main-header .dropdown-item:hover {
   color: #ffffff;
   background-color: #e97636;
-  padding: 20px 10;
 
 }
 

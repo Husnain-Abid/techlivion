@@ -7,7 +7,7 @@ export default function HomeHero() {
       <div className="container py-hero">
         {/* top hero */}
         <div className="row">
-          <div className="col-lg-6 my-auto">
+          <div className="col-lg-6 my-auto hero-animation">
             <div className="d-flex outer-border align-items-center">
               <div className="inner-border ">30% SAVE</div>
               <span className="px-3">For the Black Friday weekend</span>

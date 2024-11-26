@@ -38,9 +38,9 @@ margin-bottom: 68px;
 
 .input-contact{
     border-radius: 9px;
-    padding: 6px;
-    border: 0.6px solid var(--Change, #E97636)
-    
+    padding: 10px;
+    border: 0.6px solid var(--Change, #E97636);
+    font-size: 14px;
 }
 
 
@@ -96,7 +96,10 @@ margin-bottom: 68px;
 }
 
 
-
+.error-message{
+    font-size: 12px;
+    margin-top: 5px;
+}
 
 @media (max-width: 991px) {
     .px-Hello {

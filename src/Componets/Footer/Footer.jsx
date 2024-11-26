@@ -99,7 +99,7 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faTwitter} size="2x" />
               </a>
               <a
-                href="https://www.linkedin.com/in/OfficialTechlivion/"
+                href="http://linkedin.com/techlivion"
                 target="_blank"
                 rel="noopener noreferrer"
               >

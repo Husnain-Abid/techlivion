@@ -137,7 +137,7 @@ const servicesData = [
         path: "/services/onshore-offshore-bpo",
       },
       { name: "Data Entry", path: "/services/data-entry" },
-      { name: "Marketing", path: "/services/marketing" },
+      { name: "Marketing", path: "/services/marketing-outsourcing" },
       { name: "Healthcare", path: "/services/healthcare" },
       { name: "Data Analysis", path: "/services/data-analysis" },
       { name: "Technical Support", path: "/services/technical-support" },

@@ -12,6 +12,7 @@ import CaseStudy from './Componets/Pages/CaseStudy';
 import News from './Componets/Pages/News';
 import JoinUs from './Componets/Pages/JoinUs';
 import Quote from './Componets/Pages/Quote';
+import { ToastContainer } from 'react-toastify';
 
 
 
@@ -38,6 +39,9 @@ function App() {
         <Route path="/services/:slug" element={<ServiceDetail/>} />
        
       </Routes>
+
+      <ToastContainer />
+
       <Footer />
 
 

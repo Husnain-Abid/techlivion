@@ -2,6 +2,26 @@
   padding: 115px 25px 99px 25px;
 }
 
+.hero-animation {
+  opacity: 0; /* Start with invisible text */
+  transform: translateY(30px); /* Start the text 30px below its original position */
+  
+  /* Add animation */
+  animation: fadeInUp 1.5s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 .py-hero h1 {
   font-size: 64px;
   font-weight: 700;
@@ -10,6 +30,10 @@
   margin-top: 32px;
   margin-bottom: 52px;
 }
+
+
+
+
 
 .py-hero h3 {
   font-size: 40px;
@@ -55,7 +79,27 @@
 
 .hero-image {
   height: 514.98px;
+  opacity: 0; /* Start with invisible image */
+  transform: translateX(30px); /* Start the image 30px to the right of its original position */
+  
+  /* Add animation */
+  animation: fadeInRight 1.5s ease-out forwards;
 }
+
+/* Define the animation */
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
 
 .my-gray-bar {
   margin-top: 120px;
