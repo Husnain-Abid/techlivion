@@ -12,7 +12,7 @@ export default function About() {
 <AboutHero/>
 <AboutExperince/>
 <AboutTeam/>
-<AboutTestimonials/>
+{/* <AboutTestimonials/> */}
 
 
 </>

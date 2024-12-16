@@ -1,17 +1,19 @@
 import React from "react";
 import "./HomeHero.css";
+import { useNavigate} from "react-router-dom";
 
 export default function HomeHero() {
+  const navigate = useNavigate();
   return (
     <div className="hero-back text-white Rubik">
       <div className="container py-hero">
         {/* top hero */}
         <div className="row">
           <div className="col-lg-6 my-auto hero-animation">
-            <div className="d-flex outer-border align-items-center">
-              <div className="inner-border ">30% SAVE</div>
+            {/* <div className="d-flex outer-border align-items-center">
+             <div className="inner-border ">30% SAVE</div> 
               <span className="px-3">For the Black Friday weekend</span>
-            </div>
+            </div>  */}
 
             <h1>
               We’re Here <br className="none-425" />
@@ -19,9 +21,9 @@ export default function HomeHero() {
               Dream Project
             </h1>
 
-            <button className="Contact-btn d-flex align-items-center text-white">
+            <button className="Contact-btn d-flex align-items-center text-white" onClick={()=> navigate("/contact")}>
               <div className="p-2 ">
-                Contact Us{" "}
+                Contact Us
                 <span className="ps-4">
                   <img src="../assets/Arrow Right.png" alt="" />
                 </span>

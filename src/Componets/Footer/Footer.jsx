@@ -61,15 +61,7 @@ export default function Footer() {
           </div>
 
           <div className="col-lg-3 col-md-6  col-sm-6  my-auto mt-768">
-            <div className="d-flex text-white justify-content-between social-links">
-              {/* Add social media icons */}
-              {/* <FontAwesomeIcon icon={faFacebook} size="2x" />
-              <FontAwesomeIcon icon={faInstagram} size="2x" />
-              <FontAwesomeIcon icon={faYoutube} size="2x" />
-              <FontAwesomeIcon icon={faTwitter} size="2x" />
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
- */}
-
+            {/* <div className="d-flex text-white justify-content-between social-links">
               <a
                 href="https://www.facebook.com/OfficialTechlivion/"
                 target="_blank"
@@ -105,7 +97,7 @@ export default function Footer() {
               >
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
 
