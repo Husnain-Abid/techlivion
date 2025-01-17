@@ -1,9 +1,23 @@
 import React from "react";
 import "./HomeHero.css";
-import { useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { useInView } from "react-intersection-observer";
+import CountUp from "react-countup";
 
 export default function HomeHero() {
   const navigate = useNavigate();
+
+  const [ref1, inView1] = useInView({ triggerOnce: true });
+  const [ref2, inView2] = useInView({ triggerOnce: true });
+  const [ref3, inView3] = useInView({ triggerOnce: true });
+
+
+  const { ref: refImage, inView: inViewImage } = useInView({ triggerOnce: true });
+  const { ref: refContent, inView: inViewContent } = useInView({
+    triggerOnce: true,
+  });
+
+
   return (
     <div className="hero-back text-white Rubik">
       <div className="container py-hero">
@@ -21,7 +35,10 @@ export default function HomeHero() {
               Dream Project
             </h1>
 
-            <button className="Contact-btn d-flex align-items-center text-white" onClick={()=> navigate("/contact")}>
+            <button
+              className="Contact-btn d-flex align-items-center text-white"
+              onClick={() => navigate("/contact")}
+            >
               <div className="p-2 ">
                 Contact Us
                 <span className="ps-4">
@@ -39,25 +56,40 @@ export default function HomeHero() {
         {/* middle hero ends */}
 
         <div className="row section-2">
+          {/* Box 1 */}
           <div className="col-lg-4 my-auto box-1">
-            <h3>42+</h3>
+            <h3 ref={ref1}>
+              {inView1 ? <CountUp start={0} end={42} duration={3} /> : 0}+
+            </h3>
             <p>Years of experience</p>
           </div>
-          <div className="col-lg-4  box-2">
-            <h3>73+</h3>
+
+          {/* Box 2 */}
+          <div className="col-lg-4 box-2">
+            <h3 ref={ref2}>
+              {inView2 ? <CountUp start={0} end={73} duration={3} /> : 0}+
+            </h3>
             <p>Dedicated Agency Members</p>
           </div>
-          <div className="col-lg-4  box-1">
-            <h3>5,000+</h3>
+
+          {/* Box 3 */}
+          <div className="col-lg-4 box-1">
+            <h3 ref={ref3}>
+              {inView3 ? <CountUp start={0} end={5000} duration={3} /> : 0}+
+            </h3>
             <p>Projects completed</p>
           </div>
         </div>
 
         {/* middle hero ends */}
 
-        {/* bottom hero */}
-        <div className="row">
-          <div className="col-lg-6 ">
+          {/* bottom hero */}
+          <div className="row">
+          {/* Image Section */}
+          <div
+            ref={refImage}
+            className={`col-lg-6 ${inViewImage ? "scroll-up show" : "scroll-up"}`}
+          >
             <img
               src="../assets/Hero1.png"
               alt=""
@@ -65,11 +97,16 @@ export default function HomeHero() {
             />
           </div>
 
-          <div className="col-lg-6 mt-992 my-auto">
+          {/* Content Section */}
+          <div
+            ref={refContent}
+            className={`col-lg-6 mt-992 my-auto ${
+              inViewContent ? "scroll-up show" : "scroll-up"
+            }`}
+          >
             <h3>
               Why you should choose <br /> Techlivion?
             </h3>
-
             <p className="Hero-para">
               Choose Techlivion for expert software development, tailored IT
               services, and a proven track record of delivering innovative

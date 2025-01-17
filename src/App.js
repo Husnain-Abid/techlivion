@@ -34,8 +34,8 @@ function App() {
         <Route path="/case-studies" element={<CaseStudy />} />
         <Route path="/news" element={<News />} />
         <Route path="/join-us" element={<JoinUs/>} />
-        {/* Add more routes as needed */}
 
+        {/* Add more routes as needed */}
         <Route path="/services/:slug" element={<ServiceDetail/>} />
        
       </Routes>

@@ -44,6 +44,37 @@ line-height: 60px;
 
 
 
+/* Animation for cards */
+ .card-scroll {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-in-out;
+  }
+  
+  .card-scroll.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Animation for the image */
+  .image-scroll {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: all 0.8s ease-in-out;
+  }
+  
+   .image-scroll.show {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+
+
+
+
+
+
+
 @media (max-width: 991px) {
     .Pro p {
         max-width: 90%;

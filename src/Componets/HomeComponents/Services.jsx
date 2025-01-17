@@ -1,6 +1,7 @@
 import React from "react";
 import "./Services.css";
 import { useNavigate } from "react-router-dom";
+import { useInView } from "react-intersection-observer";
 
 export default function Services() {
   const services = [
@@ -60,8 +61,9 @@ export default function Services() {
     // },
   ];
 
+  const navigate = useNavigate();
 
-const navigate = useNavigate();
+  const [cardsRef, cardsInView] = useInView({ triggerOnce: true });
 
   return (
     <div className="bg-services Rubik text-white">
@@ -76,7 +78,12 @@ const navigate = useNavigate();
             </p>
           </div>
 
-          <div className="row">
+          <div
+                  ref={cardsRef}
+            className={`row ${
+              cardsInView ? "card-scroll show" : "card-scroll"
+            }`}
+          >
             {/* Map through the services array and render each service */}
             {services.map((service) => (
               <div className="col-lg-4  mt-3 p-4" key={service.id}>
@@ -96,10 +103,13 @@ const navigate = useNavigate();
           </div>
 
           <div className="mt-5">
-            <button className="btn-service bg-dark" onClick={()=> navigate("/services")}>More Services</button>
+            <button
+              className="btn-service bg-dark"
+              onClick={() => navigate("/services")}
+            >
+              More Services
+            </button>
           </div>
-
-
         </div>
       </div>
     </div>

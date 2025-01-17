@@ -84,6 +84,7 @@
   
   /* Add animation */
   animation: fadeInRight 1.5s ease-out forwards;
+  object-fit: contain;
 }
 
 /* Define the animation */
@@ -212,6 +213,25 @@ margin: 100px 0;
   color: #e97636;
   margin: 0;
 }
+
+
+
+
+
+
+
+
+/* retype animation start */
+
+
+
+
+/* retype animation end */
+
+
+
+
+
 
 @media (max-width: 991px) {
   .mt-992 {

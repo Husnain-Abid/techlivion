@@ -7,8 +7,12 @@ export default function AboutHero() {
       <div className="d-flex justify-content-center flex-column align-items-center text-white">
         <h1>About US</h1>
         <p>
-        Agency provides a full service range including technical skills, design, 
-          <br  className="none-425"/> business understanding.
+
+          Techlivion: Empowering businesses with innovation-driven solutions in development, design,
+          <br  className="none-425"/>
+           and optimization to fuel growth and achieve excellence
+
+
         </p>
       </div>
     </div>

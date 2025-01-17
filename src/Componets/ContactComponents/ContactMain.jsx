@@ -10,7 +10,7 @@ import {
 export default function ContactMain() {
   return (
     <div className="container py-Hello">
-      <h1 className="epilogue text-center">Say Hello !</h1>
+      <h2 className="epilogue text-center headiing" >Give us a a brief description about your query, <br/> and our team  will respond you soon!</h2>
       <div className="d-flex justify-content-center">
         <form action="" className="form-width pops">
           <div className="row">
@@ -54,7 +54,7 @@ export default function ContactMain() {
           </div>
           <p className="mb-0 text-end">
             <button className="touch-btn text-white underline">
-              Get in touch
+              Get a Quote
             </button>
           </p>
         </form>

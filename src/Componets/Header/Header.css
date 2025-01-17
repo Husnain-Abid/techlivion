@@ -148,6 +148,19 @@
 
 
 
+/* Scroll-up animation */
+.hero-back .scroll-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+.hero-back .scroll-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 
 
 

@@ -39,7 +39,7 @@ const navigate = useNavigate();
             Be part of something extraordinary. Connect, learn, and grow with
             us.
           </p>
-          <button className="btn btn-join " onClick={()=> navigate("/contact")}>Get Started Now</button>
+          <button className="btn btn-join " onClick={()=> navigate("/contact")}>Join Us</button>
         </div>
       </section>
 
@@ -68,7 +68,7 @@ const navigate = useNavigate();
                   "Unlock special events and career-advancing possibilities.",
               },
             ].map((benefit, index) => (
-              <div className="col-md-4" key={index}>
+              <div className="col-md-4 mb-2" key={index}>
                 <div className="card text-center">
                   <div className="card-body">
                     <i
@@ -88,7 +88,7 @@ const navigate = useNavigate();
       <section className="py-5 bg-light">
         <div className="container">
           <div className="col-md-8 mx-auto">
-            <h2 className="text-center mb-4">Ready to Join?</h2>
+            <h2 className="text-center mb-4">Apply Now</h2>
             <div className="card">
               <div className="card-body">
                 <form onSubmit={handleSubmit}>
@@ -175,10 +175,10 @@ const navigate = useNavigate();
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-5">
+      <section className="py-5 ">
         <div className="container">
           <h2 className="text-center mb-4">What Our Members Say</h2>
-          <div className="row">
+          <div className="row d-flex align-items-stretch member-say">
             {[
               {
                 name: "Alex Johnson",
@@ -199,9 +199,9 @@ const navigate = useNavigate();
                   "The opportunities I've had access to through this community have been game-changing for my business.",
               },
             ].map((testimonial, index) => (
-              <div className="col-md-4" key={index}>
-                <div className="card">
-                  <div className="card-body">
+              <div className="col-md-4 mb-2" key={index}>
+                <div className="card h-100 ">
+                  <div className="card-body ">
                     <h5 className="card-title">{testimonial.name}</h5>
                     <h6 className="card-subtitle mb-2 text-muted">
                       {testimonial.role}
@@ -222,7 +222,8 @@ const navigate = useNavigate();
           <p className="lead mb-4">
             Join our community today and start your journey towards success.
           </p>
-          <button className="btn btn-join" onClick={()=> navigate("/contact")}>Join Now</button>
+          <button className="btn btn-join" onClick={()=> navigate("/contact")}>Join Us 
+          </button>
         </div>
       </section>
 
