@@ -8,42 +8,42 @@ const products = [
     id: 1,
     title: "Ideate",
     description:
-      "We analyze your vision thoroughly to ensure the roadmap is perfectly aligned with your end goals, setting the stage for product success.",
+      "We refine your vision into a roadmap aligned for success!.",
     imgSrc: "../assets/P1.png",
   },
   {
     id: 2,
     title: "Design",
     description:
-      "Crafting a minimal viable product (MVP) that balances design with core functionality, maximizing value and user satisfaction",
+      "    Crafting MVPs that fuse sleek design with top functionality!",
     imgSrc: "../assets/P2.png",
   },
   {
     id: 3,
     title: "Develop",
     description:
-      "Developing end-to-end solutions with a focus on feasibility assessment, architecture design, and agile process to ensure rapid, high-quality delivery.",
+      "Building agile solutions with smart design for rapid delivery!",
     imgSrc: "../assets/P3.png",
   },
   {
     id: 4,
     title: "Test",
     description:
-      "Ensuring your product meets the highest standards of quality and reliability through extensive QA and software testing across all user touch points.",
+      "Delivering top-tier quality with rigorous testing at every touchpoint!",
     imgSrc: "../assets/P4.png",
   },
   {
     id: 5,
     title: "Launch",
     description:
-      "Executing a successful product launch by developing tailored deployment plans, executing a smooth rollout, and offering dedicated post-launch assistance.",
+      "Seamlessly launching your product with tailored plans and support!",
     imgSrc: "../assets/P5.png",
   },
   {
     id: 6,
     title: "Support",
     description:
-      "Providing ongoing support and enhancements to ensure continued product success.",
+      "Driving product success with continuous support and upgrades!",
     imgSrc: "../assets/P6.png",
   },
 ];
@@ -62,9 +62,8 @@ export default function OurProduct() {
       {/* Cards Section */}
       <div
         ref={cardsRef}
-        className={`row text-white pro-425 ${
-          cardsInView ? "card-scroll show" : "card-scroll"
-        }`}
+        className={`row text-white pro-425 ${cardsInView ? "card-scroll show" : "card-scroll"
+          }`}
       >
         {products.map((product) => (
           <div className="col-lg-4 mt-3 p-4" key={product.id}>
@@ -92,9 +91,8 @@ export default function OurProduct() {
         <h1>Technologies we use</h1>
         <div className="d-flex justify-content-center">
           <p>
-            A variety of modern web development technologies are used, including
-            front-end frameworks, back-end systems, and tools for efficient
-            development and deployment.
+          Leveraging cutting-edge web technologies, from sleek front-end frameworks to powerful back-end systems, for fast and efficient development!
+
           </p>
         </div>
       </div>
@@ -102,9 +100,8 @@ export default function OurProduct() {
       {/* Image Section */}
       <div
         ref={imageRef}
-        className={`row ${
-          imageInView ? "image-scroll show" : "image-scroll"
-        }`}
+        className={`row ${imageInView ? "image-scroll show" : "image-scroll"
+          }`}
       >
         <div className="col-12 px-4">
           <img src="../assets/techs.png" alt="" className="w-100" />

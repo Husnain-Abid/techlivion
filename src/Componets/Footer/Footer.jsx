@@ -102,7 +102,7 @@ export default function Footer() {
         </div>
 
         <div className="d-flex justify-content-center text-center text-white">
-          ©2024 TECHLIVION. All rights reserved
+          ©2025 TECHLIVION. All rights reserved
         </div>
       </div>
     </div>

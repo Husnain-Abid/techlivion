@@ -33,7 +33,7 @@ export default function ContactMain() {
             <div className="col-lg-12 mt-20">
               <div className="d-flex flex-column">
                 <label htmlFor="" className="underline">
-                  Email
+                  E-mail
                 </label>
                 <input type="Email" className="input-contact" />
               </div>

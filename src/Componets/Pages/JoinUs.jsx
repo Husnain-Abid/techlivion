@@ -36,8 +36,7 @@ const navigate = useNavigate();
         <div className="container">
           <h1 className="display-4 mb-3">Join Our Community</h1>
           <p className="lead mb-4">
-            Be part of something extraordinary. Connect, learn, and grow with
-            us.
+          Be part of something Extraordinary. Connect, Learn, and Grow with us
           </p>
           <button className="btn btn-join " onClick={()=> navigate("/contact")}>Join Us</button>
         </div>

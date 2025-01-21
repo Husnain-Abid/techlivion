@@ -9,22 +9,13 @@ export default function AboutExperince() {
 
         <div className="col-lg-6 my-auto">
           <h1 className="orange mb-0">
-            An Experience <br />
-            Design Agency
-          </h1>
+            Your Vision, <br /> Our Expertise
+            </h1>
         </div>
         <div className="col-lg-6 mt-991">
           <p className="mb-0">
-            Techlivion is a distinguished software development company with a
-            primary focus on catering to startups, entrepreneurs, and
-            established enterprises, who contribute to innovation and create
-            opportunities for the broader public. Our dedicated team is
-            committed to providing comprehensive services, encompassing idea
-            brainstorming, meticulous design, development, and ultimately
-            facilitating the successful launch of your project into the market.
-            We help optimize the businesses through our services, to make the
-            businesses grow, stay up to date, and reach new heights of
-            performance.
+          At Techlivion, we craft innovative solutions in web development, architectural design, and BPO services, tailored to drive success across industries. With a passion for quality, creativity, and client satisfaction, we transform your ideas into extraordinary results.
+
           </p>
         </div>
         {/* top */}
@@ -81,16 +72,17 @@ export default function AboutExperince() {
 
         {/* BOT */}
         <div className="col-lg-6 my-auto">
-          <p className="orange">FEATURES</p>
+          {/* <p className="orange">FEATURES</p> */}
           <h2>
-            Long run, and work as an extension <br className="none-425" /> of
-            the merchant's team.
+            A True Partnership for Long-Term <br /> Success
+
           </h2>
 
           <p>
-            Ability to put themselves in the merchant's{" "}
-            <br className="none-425" /> shoes. It is meant to partner on the
-            long run, <br className="none-425" /> and work as an extension.
+
+            We immerse ourselves in the merchant's perspective, <br className="none-425" /> acting  as an extension of their team. Our goal is to build <br className="none-425" /> lasting partnerships that drive growth and success over <br className="none-425" /> the long haul.
+
+
           </p>
         </div>
 

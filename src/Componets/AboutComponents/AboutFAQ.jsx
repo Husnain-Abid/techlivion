@@ -5,24 +5,38 @@ export default function AboutFAQ() {
   // Array of FAQ questions and answers
   const faqData = [
     {
-      question: "Hire to outsource your digital marketing",
+      question: "What services does Techlivion offer?",
       answer:
-        "When you hire a digital agency, you essentially bring in an outside team to take care of your online marketing efforts. This can include anything from managing social media to optimizing your website for search engines.",
+      'Techlivion specializes in Web Development (Full-Stack, Front-End, Back-End, DevOps, and AR/VR integration), Architecture Services (design planning, 3D visualization, and structural layouts), and BPO Services (graphic designing, HR, and SEO solutions).'    },
+    {
+      question: "What technologies do you use for web development?",
+      answer:
+        "We utilize the latest web technologies, including modern front-end frameworks (React, Angular, Vue), robust back-end systems (Node.js, Python, Java), and DevOps tools for efficient deployment and scalability.",
     },
     {
-      question: "A digital agency is a business",
+      question: "Can you customize your services to fit our unique needs?",
       answer:
-        "Digital agencies provide services such as social media marketing, SEO, PPC advertising, email marketing, and content creation. They help businesses build and execute online marketing strategies.",
+        "Absolutely! We tailor every solution to align with your specific requirements, ensuring a perfect fit for your business goals and vision.",
     },
     {
-      question: "Marketing efforts",
+      question: "How does Techlivion ensure the quality of its services?",
       answer:
-        "The cost of digital agency services varies based on the scope of the project, services needed, and the agency's pricing model. Agencies may charge hourly rates, project-based fees, or monthly retainers.",
+        "We implement rigorous quality assurance processes, extensive testing, and a customer-centric approach to ensure top-notch quality and reliability across all touchpoints.",
     },
     {
-      question: "Can provide your business",
+      question: "Do you provide ongoing support after project completion?",
       answer:
-        "The cost of digital agency services varies based on the scope of the project, services needed, and the agency's pricing model. Agencies may charge hourly rates, project-based fees, or monthly retainers.",
+        "Yes, we offer continuous support, updates, and enhancements to ensure your product stays ahead in performance and meets evolving needs.",
+    },
+    {
+      question: "What industries do you cater to?",
+      answer:
+        "We work with a wide range of industries, including technology, real estate, e-commerce, healthcare, and more, delivering solutions tailored to each sector's needs.",
+    },
+    {
+      question: "How can we get started with Techlivion?",
+      answer:
+        "Getting started is easy! Simply contact us through our website or email, and our team will guide you through the process of turning your ideas into reality.",
     },
   ];
 

@@ -59,7 +59,7 @@ export default function HomeHero() {
           {/* Box 1 */}
           <div className="col-lg-4 my-auto box-1">
             <h3 ref={ref1}>
-              {inView1 ? <CountUp start={0} end={42} duration={3} /> : 0}+
+              {inView1 ? <CountUp start={0} end={9} duration={3} /> : 0}+
             </h3>
             <p>Years of experience</p>
           </div>
@@ -67,7 +67,7 @@ export default function HomeHero() {
           {/* Box 2 */}
           <div className="col-lg-4 box-2">
             <h3 ref={ref2}>
-              {inView2 ? <CountUp start={0} end={73} duration={3} /> : 0}+
+              {inView2 ? <CountUp start={0} end={15} duration={3} /> : 0}+
             </h3>
             <p>Dedicated Agency Members</p>
           </div>
@@ -75,7 +75,7 @@ export default function HomeHero() {
           {/* Box 3 */}
           <div className="col-lg-4 box-1">
             <h3 ref={ref3}>
-              {inView3 ? <CountUp start={0} end={5000} duration={3} /> : 0}+
+              {inView3 ? <CountUp start={0} end={500} duration={3} /> : 0}+
             </h3>
             <p>Projects completed</p>
           </div>
@@ -108,9 +108,7 @@ export default function HomeHero() {
               Why you should choose <br /> Techlivion?
             </h3>
             <p className="Hero-para">
-              Choose Techlivion for expert software development, tailored IT
-              services, and a proven track record of delivering innovative
-              solutions.
+            Choose Techlivion for expert Web Development, innovative Architecture, and seamless BPO solutions—all tailored to your needs. We deliver cutting-edge tech and design that guarantee results.
             </p>
 
             <button className="Contact-btn d-flex align-items-center text-white">

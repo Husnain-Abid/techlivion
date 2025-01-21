@@ -11,21 +11,22 @@ export default function ServicesWork() {
                 <h1>Making Your Projects <br className="none-425"/> 
                 Look Awesome</h1>
 
-                <p className="mb-0">Technical skills, design, business understanding, ability to <br className="none-425" /> put themselves in the merchant's shoes.</p>
+                <p className="mb-0">We combine innovation and expertise to transform your ideas into reality. From concept  to launch, we ensure every step aligns with your vision and goals!
+               </p>
 
             </div>
             <div className="col-lg-6 mt-992">
                 <div className="d-flex align-items-center">
                     <h2 className="orange">1</h2>
-                    <h3 className="ps-4">Full service range including</h3>
+                    <h3 className="ps-4">Innovation & Expertise </h3>
                 </div>
                 <div className="d-flex align-items-center mt-32">
                     <h2 className="orange">2</h2>
-                    <h3 className="ps-4">Technical skills, design, business</h3>
+                    <h3 className="ps-4">From Concept to Launch</h3>
                 </div>
                 <div className="d-flex align-items-center mt-32">
                     <h2 className="orange">3</h2>
-                    <h3 className="ps-4">Themselves in the merchant's</h3>
+                    <h3 className="ps-4">Your Visions & Your Goals </h3>
                 </div>
 
 

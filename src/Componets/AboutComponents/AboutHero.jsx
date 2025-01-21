@@ -7,10 +7,9 @@ export default function AboutHero() {
       <div className="d-flex justify-content-center flex-column align-items-center text-white">
         <h1>About US</h1>
         <p>
-
-          Techlivion: Empowering businesses with innovation-driven solutions in development, design,
-          <br  className="none-425"/>
-           and optimization to fuel growth and achieve excellence
+        Techlivion delivers cutting-edge solutions in web development, architecture design, and BPO services, 
+        tailored to <br  className="none-425"/> meet diverse industry needs. With a focus on quality, innovation, and customer-centricity,           <br  className="none-425"/>
+        we turn your ideas into impactful realities.
 
 
         </p>

@@ -5,11 +5,10 @@ export default function ContactHero() {
     <div className="bg-Hero epilogue">
       <div className="container py-hero-common ">
         <div className="d-flex justify-content-center flex-column align-items-center text-white">
-          <h1>Contact </h1>
+          <h1>Contact Us </h1>
           <p>
-            Welcome Folks! Be at ease, for we’ve got you covered. Scroll down
-            and send us your queries.
-            <br className="none-425" /> We’ll get back to you at the earliest
+          Ready to bring your vision to life? Reach out to us today!
+
           </p>
         </div>
       </div>

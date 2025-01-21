@@ -69,12 +69,11 @@ export default function Services() {
     <div className="bg-services Rubik text-white">
       <div className="container py-100">
         <div className="d-flex flex-column text-center">
-          <h1>Services we serve</h1>
+          <h1>Services we Offer</h1>
           <div className="d-flex justify-content-center">
             <p>
-              With a wide range of services and proven experience across major
-              industries, we understand your challenges and deliver tailored
-              solutions that overcome them and drive meaningful impact.
+            We leverage cutting-edge web technologies, from sleek front-end frameworks to powerful back-end systems, for fast and efficient development!
+
             </p>
           </div>
 
