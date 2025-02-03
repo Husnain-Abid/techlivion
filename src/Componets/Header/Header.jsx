@@ -8,8 +8,8 @@ const servicesData = [
     services: [
       { name: "Front-End Web Development", path: "/services/front-end" },
       { name: "Back-End Web Development", path: "/services/back-end" },
-      { name: "Full Stack Development", path: "/services/full-stack" },
-      { name: "Web-Site Management", path: "/services/site-management" },
+      { name: "Full stack development", path: "/services/full-stack" },
+      { name: "Web-Site management", path: "/services/site-management" },
       { name: "Desktop Development", path: "/services/desktop-development" },
       { name: "Mobile App Development", path: "/services/mobile-app" },
       { name: "Embedded Development", path: "/services/embedded-development" },
@@ -21,10 +21,7 @@ const servicesData = [
     title: "Graphic Designing",
     services: [
       { name: "Logo Design", path: "/services/logo-design" },
-      {
-        name: "Brouchers / Flyers / Posters",
-        path: "/services/brouchers-flyers",
-      },
+      { name: "Brouchers / Flyers / Posters", path: "/services/brouchers-flyers" },
       { name: "Outdoor & Indoor Signage", path: "/services/outdoor-indoor-signage" },
       { name: "Design Brand Identity", path: "/services/design-brand-identity" },
       { name: "Custom Design", path: "/services/custom-design" },
@@ -38,11 +35,9 @@ const servicesData = [
     services: [
       { name: "UX Research", path: "/services/ux-research" },
       { name: "UX Persona", path: "/services/ux-persona" },
-      { name: "UX Case Study", path: "/services/ux-case-study" },
-      { name: "Wire framing", path: "/services/wire-framing" },
-      { name: "Prototyping", path: "/services/prototyping" },
+      { name: "Wireframing", path: "/services/wire-framing" },
+      { name: "Responsive", path: "/services/responsive" },
       { name: "UI Design", path: "/services/ui-design" },
-      { name: "User Flow", path: "/services/user-flow" },
     ],
   },
 
@@ -50,10 +45,9 @@ const servicesData = [
     title: "SEO Services",
     services: [
       { name: "Off Page SEO", path: "/services/off-page-seo" },
-      { name: "IN Page SEO", path: "/services/in-page-seo" },
-      { name: "Website SEO", path: "/services/website-seo" },
-      { name: "Mobile SEO", path: "/services/mobile-seo" },
-      { name: "Technical SEO", path: "/services/technical-seo" },
+      { name: "In Page SEO", path: "/services/in-page-seo" },
+      { name: "On Page SEO", path: "/services/on-page-seo" },
+      { name: "Answer Engine Optimization", path: "/services/aeo" },
       { name: "Content Creation", path: "/services/content-creation" },
       { name: "SEO Audit", path: "/services/seo-audit" },
     ],
@@ -62,115 +56,49 @@ const servicesData = [
   {
     title: "Human Resource Management",
     services: [
-      { name: "Core HR", path: "/services/core-hr" },
-      { name: "Employee Performance", path: "/services/employee-performance" },
-      { name: "Employee Database", path: "/services/employee-database" },
-      { name: "LMS Systems", path: "/services/lms-systems" },
-      { name: "Analytics", path: "/services/analytics" },
+      { name: "Human Resource Management", path: "/services/human-resource" },
     ],
   },
 
   {
-    title: "Digital Marketing",
+    title: "Dev-Ops",
     services: [
-      { name: "PPC Advertising", path: "/services/ppc-advertising" },
-      { name: "Link Building", path: "/services/link-building" },
-      {
-        name: "Social Media Marketing",
-        path: "/services/social-media-marketing",
-      },
-      { name: "Content Marketing", path: "/services/content-marketing" },
-      {
-        name: "Ad Campaigns Designing",
-        path: "/services/ad-campaigns-designing",
-      },
-      { name: "Content Writing", path: "/services/content-writing" },
+      { name: "Continuous Integration", path: "/services/continuous-integration" },
+      { name: "Automation", path: "/services/automation" },
+      { name: "Software", path: "/services/software" },
+      { name: "Deployment", path: "/services/ad-campaigns-designing" },
     ],
   },
 
   {
     title: "3D Product Visualization",
     services: [
-      { name: "3D Modelling", path: "/services/3d-modelling" },
-      { name: "3D Rendering", path: "/services/3d-rendering" },
-      { name: "360 Product Spins", path: "/services/360-product-spins" },
-      {
-        name: "Augmented Reality (AR) Integration",
-        path: "/services/ar-integration",
-      },
-      {
-        name: "Virtual Reality (VR) Product Demos",
-        path: "/services/vr-product-demos",
-      },
-      { name: "3D Animation", path: "/services/3d-animation" },
-      { name: "Custom Configurators", path: "/services/custom-configurators" },
-      {
-        name: "3D Prototyping and Simulation",
-        path: "/services/3d-prototyping",
-      },
-      {
-        name: "3D Printing Pre-Visualization",
-        path: "/services/3d-printing-pre-visualization",
-      },
-      {
-        name: "Web-based 3D Viewer Integration",
-        path: "/services/web-based-3d-viewer",
-      },
+      { name: "3D Prototyping and Simulation", path: "/services/3d-modelling" },
+      { name: "AR Integration", path: "/services/3d-rendering" },
+      { name: "VR Product", path: "/services/360-product-spins" },
     ],
   },
 
   {
     title: "BPO Services",
     services: [
-      {
-        name: "Back Office Outsourcing",
-        path: "/services/back-office-outsourcing",
-      },
-      {
-        name: "Front Office Outsourcing",
-        path: "/services/front-office-outsourcing",
-      },
-      { name: "Accounting", path: "/services/accounting" },
-      { name: "IT", path: "/services/it-outsourcing" },
-      {
-        name: "Onshore / Offshore BPO",
-        path: "/services/onshore-offshore-bpo",
-      },
+      { name: "Graphic Designing", path: "/services/graphic-design" },
+      { name: "Content Writing", path: "/services/content-writing" },
+      { name: "Customer Support", path: "/services/customer-support" },
       { name: "Data Entry", path: "/services/data-entry" },
-      { name: "Marketing", path: "/services/marketing-outsourcing" },
-      { name: "Healthcare", path: "/services/healthcare" },
-      { name: "Data Analysis", path: "/services/data-analysis" },
-      { name: "Technical Support", path: "/services/technical-support" },
+      { name: "Accounting", path: "/services/accounting" },
     ],
   },
 
   {
     title: "Game Development",
     services: [
-      {
-        name: "Mobile Game Development (iOS / Android)",
-        path: "/services/mobile-game-development",
-      },
-      {
-        name: "PC, Console, AR / VR Games",
-        path: "/services/pc-console-ar-vr-games",
-      },
-      { name: "AI Game Development", path: "/services/ai-game-development" },
-      {
-        name: "Virtual Reality Game Development",
-        path: "/services/vr-game-development",
-      },
-      {
-        name: "Augmented Reality Game Development",
-        path: "/services/ar-game-development",
-      },
-      { name: "Game Art Design Services", path: "/services/game-art-design" },
-      {
-        name: "Gamification Services",
-        path: "/services/gamification-services",
-      },
+      { name: "Game Development", path: "/services/mobile-game-development" },
+      { name: "iOS/Android", path: "/services/pc-console-ar-vr-games" },
+      { name: "Game Art Design", path: "/services/game-art" },
     ],
   },
+
 ];
 
 export default function Header() {
@@ -272,11 +200,17 @@ export default function Header() {
                   <span className="nav-link text-white">Insights</span>
                   {isInsightsDropdownVisible && (
                     <div className="dropdown">
-                      <Link to="/case-studies" className="dropdown-item" onClick={closeNavbar}>
-                        Case Studies
+                      <Link to="https://www.forbes.com/" target="_blank" className="dropdown-item" onClick={closeNavbar}>
+                        Forbes
                       </Link>
-                      <Link to="/news" className="dropdown-item" onClick={closeNavbar}>
-                        News
+                      <Link to="https://techcrunch.com/" target="_blank" className="dropdown-item" onClick={closeNavbar}>
+                      Tech Crunch
+                      </Link>
+                      <Link to="https://mashable.com/" target="_blank" className="dropdown-item" onClick={closeNavbar}>
+                      Mashable
+                      </Link>
+                      <Link to="https://www.nytimes.com/international/" target="_blank" className="dropdown-item" onClick={closeNavbar}>
+                      NY Times
                       </Link>
                     </div>
                   )}

@@ -10,7 +10,8 @@ import {
 export default function ContactMain() {
   return (
     <div className="container py-Hello">
-      <h2 className="epilogue text-center headiing" >Give us a a brief description about your query, <br/> and our team  will respond you soon!</h2>
+      <h2 className="epilogue text-center headiing" >Give us a a brief description about your query, <br/> and our team will respond to you at the earliest.
+       </h2>
       <div className="d-flex justify-content-center">
         <form action="" className="form-width pops">
           <div className="row">

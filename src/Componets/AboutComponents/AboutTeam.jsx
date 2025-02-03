@@ -43,8 +43,8 @@ export default function AboutTeam() {
   return (
     <div className='Team-Back ' id='team'>
       <div className='container py-Team epilogue text-white'>
-        <p className='mb-0'>OUR TEAM</p>
-        <h1>Team of Extraordinary <br /> Ladies & Gentlemen.
+        <p className='mb-0 text-center'>OUR TEAM</p>
+        <h1 className='text-center'>Team of Extraordinary <br /> Ladies & Gentlemen.
         </h1>
 
         <Slider {...settings}>

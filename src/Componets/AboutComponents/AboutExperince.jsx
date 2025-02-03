@@ -71,7 +71,7 @@ export default function AboutExperince() {
         <div className="mt-91"></div>
 
         {/* BOT */}
-        <div className="col-lg-6 my-auto">
+        <div className="col-lg-12 my-auto">
           {/* <p className="orange">FEATURES</p> */}
           <h2>
             A True Partnership for Long-Term <br /> Success
@@ -80,13 +80,19 @@ export default function AboutExperince() {
 
           <p>
 
-            We immerse ourselves in the merchant's perspective, <br className="none-425" /> acting  as an extension of their team. Our goal is to build <br className="none-425" /> lasting partnerships that drive growth and success over <br className="none-425" /> the long haul.
+            We immerse ourselves in the merchant's perspective, 
+            {/* <br className="none-425" /> */}
+             acting  as an extension of their team. Our goal is to build
+              <br className="none-425" />
+               lasting partnerships that drive growth and success over
+                {/* <br className="none-425" />  */}
+                the long haul.
 
 
           </p>
         </div>
 
-        <div className="col-lg-6">
+        {/* <div className="col-lg-6">
           <div className="row">
             <div className="col-lg-6 border-exp p-46">
               <div className="p-46-575 border-exp-575">
@@ -104,14 +110,16 @@ export default function AboutExperince() {
 
             <div className="col-lg-6 border-exp p-46  mt-auto ">
               <div className="p-46-575 border-exp-575">
-                <h3>Accessibility</h3>
+                <h3>Accessibility
+                  
+                </h3>
                 <p className="mb-0">
                   Business understanding, ability to put themselves.
                 </p>
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* BOT */}
       </div>

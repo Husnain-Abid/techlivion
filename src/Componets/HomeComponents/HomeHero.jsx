@@ -111,9 +111,9 @@ export default function HomeHero() {
             Choose Techlivion for expert Web Development, innovative Architecture, and seamless BPO solutions—all tailored to your needs. We deliver cutting-edge tech and design that guarantee results.
             </p>
 
-            <button className="Contact-btn d-flex align-items-center text-white">
+            {/* <button className="Contact-btn d-flex align-items-center text-white">
               <div className="px-3 py-2 ">Learn More</div>
-            </button>
+            </button> */}
           </div>
         </div>
         {/* bottom hero ends */}

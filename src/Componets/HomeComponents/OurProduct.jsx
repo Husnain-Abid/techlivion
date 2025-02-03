@@ -8,42 +8,42 @@ const products = [
     id: 1,
     title: "Ideate",
     description:
-      "We refine your vision into a roadmap aligned for success!.",
+      "We refine your vision into a roadmap aligned for success.",
     imgSrc: "../assets/P1.png",
   },
   {
     id: 2,
     title: "Design",
     description:
-      "    Crafting MVPs that fuse sleek design with top functionality!",
+      "    Crafting MVPs that fuse sleek design with top functionality",
     imgSrc: "../assets/P2.png",
   },
   {
     id: 3,
     title: "Develop",
     description:
-      "Building agile solutions with smart design for rapid delivery!",
+      "Building agile solutions with smart design for rapid delivery",
     imgSrc: "../assets/P3.png",
   },
   {
     id: 4,
     title: "Test",
     description:
-      "Delivering top-tier quality with rigorous testing at every touchpoint!",
+      "Delivering top-tier quality with rigorous testing at every touchpoint",
     imgSrc: "../assets/P4.png",
   },
   {
     id: 5,
     title: "Launch",
     description:
-      "Seamlessly launching your product with tailored plans and support!",
+      "Seamlessly launching your product with tailored plans and support",
     imgSrc: "../assets/P5.png",
   },
   {
     id: 6,
     title: "Support",
     description:
-      "Driving product success with continuous support and upgrades!",
+      "Driving product success with continuous support and upgrades",
     imgSrc: "../assets/P6.png",
   },
 ];

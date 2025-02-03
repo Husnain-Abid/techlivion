@@ -179,18 +179,9 @@ These personas serve as a guiding tool for your design and development processes
 `,
       category: "UI UX Designs",
     },
+
     {
       id: 18,
-      image: "ux-case-study.png",
-      heading: "UX Case Study",
-      slug: "ux-case-study",
-      para: `Welcome to Techlivion's Wireframing services! We specialize in designing clear and intuitive wireframes that serve as the blueprint for your websites or applications, ensuring your project starts on a solid foundation.
-Wireframing is an essential step in the development process, bridging the gap between your ideas and the final product. It defines the layout, structure, and functionality of your digital project, setting the stage for seamless design and development. At Techlivion, our team of experts creates wireframes tailored to your vision, helping you visualize your project and refine it before moving to the next phase.
-`,
-      category: "UI UX Designs",
-    },
-    {
-      id: 19,
       image: "wire-framing.png",
       heading: "Wireframing",
       slug: "wire-framing",
@@ -200,7 +191,7 @@ Wireframing is an essential step in the development process, bridging the gap be
       category: "UI UX Designs",
     },
     {
-      id: 20,
+      id: 19,
       image: "responsive-design.png",
       heading: "Responsive",
       slug: "responsive",
@@ -209,32 +200,20 @@ UI design is more than just aesthetics—it’s about creating interfaces that c
 `,
       category: "UI UX Designs",
     },
+
     {
-      id: 21,
-      image: "prototyping.png",
-      heading: "Prototyping",
-      slug: "prototyping",
-      para: "Get the required prototype, be it for clients, users, or any other stakeholders, to prepare in advance the best experience for them.",
-      category: "UI UX Designs",
-    },
-    {
-      id: 22,
+      id: 20,
       image: "ui-design.png",
       heading: "UI Design",
       slug: "ui-design",
-      para: "Get the best user interfaces designed for your computers, home appliances, mobile devices, and any user interface to ensure the best user experience.",
+      para: `Creating visually stunning and intuitive interfaces is at the heart of what we do at Techlivion. We specialize in crafting user interface (UI) designs that captivate users and ensure seamless interaction, delivering exceptional digital experiences tailored to your brand.
+UI design is more than just aesthetics—it’s about creating interfaces that combine beauty with functionality. At Techlivion, we understand the importance of balancing visual appeal and usability, ensuring every element is designed to enhance the user experience while staying true to your brand identity.
+`,
       category: "UI UX Designs",
     },
+
     {
-      id: 23,
-      image: "user-flow.png",
-      heading: "User Flow",
-      slug: "user-flow",
-      para: "Techlivion provides you with diagrams, wireframes, prototypes, flowcharts, and other tools to help you understand how your user will navigate through your online presence. We will make it easy and impressive to get maximum modernization and ease for the user.",
-      category: "UI UX Designs",
-    },
-    {
-      id: 24,
+      id: 21,
       image: "off-page-seo.png",
       heading: "Off Page SEO",
       slug: "off-page-seo",
@@ -244,39 +223,51 @@ Off-Page SEO goes beyond optimizing your website—it focuses on establishing yo
       category: "SEO Services",
     },
     {
-      id: 25,
+      id: 22,
       image: "in-page-seo.png",
       heading: "In Page SEO",
       slug: "in-page-seo",
       para: `Enhancing your website's structure, content, and functionality is vital to achieving higher search engine rankings and delivering a superior user experience. At Techlivion, we specialize in On-Page SEO strategies designed to optimize every aspect of your website or mobile, ensuring it meets search engine guidelines and connects effectively with your audience`,
       category: "SEO Services",
     },
+
     {
-      id: 26,
-      image: "website-seo.png",
-      heading: "Website SEO",
-      slug: "website-seo",
-      para: `Create keyword-rich, engaging content while improving internal linking, image optimization, and page speed to deliver an exceptional user experience.`,
+      id: 23,
+      image: "on-page-seo.png",
+      heading: "In Page SEO",
+      slug: "on-page-seo",
+      para: `Enhancing your website's structure, content, and functionality is vital to achieving higher search engine rankings and delivering a superior user experience. At Techlivion, we specialize in On-Page SEO strategies designed to optimize every aspect of your website or mobile, ensuring it meets search engine guidelines and connects effectively with your audience.
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p>Our On-Page SEO Services Include:</p>
+      <ul>
+        <li><strong>Mobile SEO:</strong> Optimize your website for mobile devices, ensuring fast load times, responsive design, and enhanced usability for mobile users.</li>
+        <li><strong>Technical SEO:</strong> Fine-tune your website’s structure, meta tags, URLs, and schema markup to enhance search engine crawlability and indexing.</li>
+        <li><strong>Website SEO:</strong> Create keyword-rich, engaging content while improving internal linking, image optimization, and page speed to deliver an exceptional user experience.</li>
+      </ul>`,
       category: "SEO Services",
     },
+
     {
-      id: 27,
-      image: "mobile-seo.png",
-      heading: "Mobile SEO",
-      slug: "mobile-seo",
-      para: `Optimize your website for mobile devices, ensuring fast load times, responsive design, and enhanced usability for mobile users.`,
+      id: 24,
+      image: "AEO-seo.png",
+      heading: "Answer Engine Optimization",
+      slug: "aeo",
+      para: `
+      
+      In the evolving world of search, it’s no longer just about ranking higher—it’s about delivering precise answers to user queries. At Techlivion, we specialize in Answer Engine Optimization (AEO), helping your content get featured in search engine results as rich answers, featured snippets, and voice search responses. <br><br>
+AEO focuses on optimizing your content for modern search engines that prioritize answering user questions directly. By understanding user intent and structuring your content effectively, we ensure your business remains visible and relevant in an increasingly competitive digital landscape.
+
+      
+      `,
       category: "SEO Services",
     },
+
     {
-      id: 28,
-      image: "technical-seo.png",
-      heading: "Technical SEO",
-      slug: "technical-seo",
-      para: `Fine-tune your website’s structure, meta tags, URLs, and schema markup to enhance search engine crawlability and indexing.`,
-      category: "SEO Services",
-    },
-    {
-      id: 29,
+      id: 25,
       image: "content-creation.png",
       heading: "Content Creation",
       slug: "content-creation",
@@ -285,7 +276,7 @@ Content is the foundation of your online presence—it informs, engages, and ins
       category: "SEO Services",
     },
     {
-      id: 30,
+      id: 26,
       image: "seo-audit.png",
       heading: "SEO Audit",
       slug: "seo-audit",
@@ -294,342 +285,222 @@ An SEO audit serves as a roadmap for your digital success, ensuring your website
 `,
       category: "SEO Services",
     },
+
     {
-      id: 31,
-      image: "market-analysis.png",
-      heading: "Market Analysis",
-      slug: "market-analysis",
-      para: "We think market analysis is a vital step in understanding your footing and that of your competitors. It also gives you detailed insights about your target audience, such as their needs, preferences, and behaviors. This will help us both to create and design better.",
+      id: 27,
+      image: "hr.png",
+      heading: "Human Resource Management ",
+      slug: "human-resource",
+      para: `
+    <p>Empowering businesses with innovative HR solutions is our mission at Techlivion. We specialize in delivering tailored HR services that streamline your workforce management, enhance employee performance, and provide actionable insights to drive organizational success. We have professionals on board and we can help you with hiring an HR professional for your in-house team. If you intend to outsource your HR Department, we can do that for you with the help of our expert team.</p>
+
+    <p><strong>Why Choose Techlivion for HR Services?</strong></p>
+    <ul>
+      <li><strong>Comprehensive Solutions:</strong> We provide end-to-end HR management tools that simplify processes and improve efficiency.</li>
+      <li><strong>Employee-Centric Approach:</strong> Our services focus on empowering employees and fostering a productive work environment.</li>
+      <li><strong>Data-Driven Insights:</strong> Leverage advanced analytics to make informed decisions and enhance workforce strategies.</li>
+    </ul>
+
+    <p><strong>Our HR Services Include:</strong></p>
+    <ul>
+      <li><strong>Employee Performance Management:</strong> Track, assess, and optimize employee performance with tailored KPIs, feedback systems, and goal-setting tools.</li>
+      <li><strong>Employee Database Management:</strong> Maintain a secure and organized database for all employee records, ensuring compliance and easy access.</li>
+      <li><strong>LMS Systems:</strong> Implement Learning Management Systems that facilitate employee training, upskilling, and knowledge sharing across teams.</li>
+      <li><strong>HR Analytics:</strong> Unlock insights into your workforce with advanced analytics tools that help improve retention, productivity, and engagement.</li>
+    </ul>
+
+    <p>Elevate your human resources strategy with Techlivion’s HR services. Let us help you create a more efficient and people-focused workplace. Contact us today to learn more!</p>
+  `,
       category: "Human Resource Management",
     },
+
+    // devOps start
+    {
+      id: 28,
+      image: "continuous-integration.png",
+      heading: "Continuous Integration ",
+      slug: "continuous-integration",
+      para: `Streamlining your development process is essential for delivering high-quality software quickly and efficiently. At Techlivion, we specialize in Continuous Integration (CI) services that automate code integration, improve collaboration, and ensure your projects stay on track. <br> <br>
+Continuous Integration is a development practice where code changes are automatically tested and integrated into a shared repository. This ensures early detection of errors, faster development cycles, and smoother deployment processes. Partner with Techlivion to implement robust CI pipelines that enhance your team's productivity and ensure consistent software quality.
+`,
+      category: "Dev-Ops",
+    },
+    {
+      id: 29,
+      image: "automation.png",
+      heading: "Automation",
+      slug: "automation",
+      para: `Streamline your processes and maximize efficiency with Techlivion’s Automation services. We specialize in implementing cutting-edge automation solutions tailored to your business needs, enabling you to save time, reduce errors, and focus on growth. <br> <br>
+      
+Automation is the key to simplifying complex workflows and boosting productivity. At Techlivion, we understand the importance of aligning technology with your objectives. Whether it’s automating repetitive tasks, optimizing workflows, or integrating advanced systems, our solutions are designed to empower your business.      
+`,
+      category: "Dev-Ops",
+    },
+    {
+      id: 30,
+      image: "software.png",
+      heading: "Software",
+      slug: "software",
+      para: `Ensure your software meets the highest standards of quality and performance with Techlivion’s comprehensive software testing solutions. We specialize in providing rigorous testing services tailored to your unique needs, allowing you to deliver flawless products, reduce risks, and enhance user satisfaction.
+Software testing is the cornerstone of reliable and functional applications. At Techlivion, we understand the critical role testing plays in the development lifecycle. Whether it’s functional testing, performance testing, security testing, or automated testing, our services are designed to give you peace of mind knowing that your software is ready for deployment and meets all expectations.
+`,
+      category: "Dev-Ops",
+    },
+
+    {
+      id: 31,
+      image: "deployment.png",
+      heading: "Deployment",
+      slug: "ad-campaigns-designing",
+      para: `Ensure a smooth and efficient launch with Techlivion’s deployment services. We specialize in implementing reliable deployment strategies tailored to your business needs, allowing you to deploy applications faster, reduce downtime, and ensure seamless user experiences. <br> <br>
+Deployment is the final and crucial step in bringing your software to life. At Techlivion, we understand the importance of a flawless rollout. Whether it's deploying to a cloud environment, on-premises infrastructure, or through continuous delivery pipelines, our solutions are designed to meet your needs, optimize performance, and set you up for success.
+`,
+      category: "Dev-Ops",
+    },
+
     {
       id: 32,
-      image: "guest-blogging.png",
-      heading: "Guest Blogging",
-      slug: "guest-blogging",
-      para: "Techlivion has experts that will write for your website's blogs, which will provide a great user experience and also serve as a much-needed SEO ingredient. It is the quality that we ensure and that you can trust.",
-      category: "Human Resource Management",
+      image: "3d-modelling.png",
+      heading: "3D Prototyping and Simulation",
+      slug: "3d-modelling",
+      para: `
+        <p>Revolutionize your product development process with Techlivion’s advanced 3D prototyping and simulation services. We specialize in creating immersive, interactive 3D experiences that allow you to visualize, test, and refine your ideas before they hit production.</p>
+        
+        <p><strong>Our services include:</strong></p>
+        <ul>
+          <li><strong>3D Animation:</strong> Bring your designs to life with high-quality 3D animations that showcase every angle and detail of your product.</li>
+          <li><strong>Custom Configurators:</strong> Enable users to interact with and customize products in real-time, providing them with a personalized experience.</li>
+          <li><strong>3D Modeling:</strong> Create precise and detailed 3D models for prototypes, ensuring the digital version matches your vision.</li>
+          <li><strong>3D Rendering:</strong> Generate realistic renderings that provide lifelike representations of your product, offering a clear view of its design.</li>
+          <li><strong>3D Viewer Integration:</strong> Seamlessly integrate 3D viewers into your website or app to allow customers to interact with your product directly.</li>
+          <li><strong>360 Product Spins:</strong> Let your customers explore every angle of your product with immersive 360-degree spins, giving them a comprehensive view of your offerings.</li>
+        </ul>
+    
+        <p>At Techlivion, we believe that visualization is key to innovation. Our state-of-the-art technology empowers you to iterate faster, reduce errors, and bring your ideas to market with confidence.</p>
+      `,
+      category: "3D Product Visualization",
     },
     {
       id: 33,
-      image: "social-media-marketing.png",
-      heading: "Social Media Marketing",
-      slug: "social-media-marketing",
-      para: "Who can neglect SMM! We provide you with technical and modernized social media marketing across all related platforms. This will increase your reach and enable potential users to easily get in touch with you.",
-      category: "Human Resource Management",
+      image: "3d-rendering.png",
+      heading: "AR Integration",
+      slug: "3d-rendering",
+      para: `Transform the way your customers interact with your products and services through Techlivion’s Augmented Reality (AR) integration solutions. We specialize in implementing cutting-edge AR technologies tailored to your business needs, enabling you to engage users in immersive and interactive ways, drive customer satisfaction, and enhance brand experiences. <br>
+AR integration is the key to bridging the physical and digital worlds. At Techlivion, we understand the power of seamless AR experiences. Whether it’s enhancing shopping experiences, creating interactive product demos, or enabling virtual try-ons, our solutions are designed to empower your business and captivate your audience.
+`,
     },
     {
       id: 34,
-      image: "seo-progress-reporting.png",
-      heading: "SEO Progress Reporting",
-      slug: "seo-progress-reporting",
-      para: "Adaptation is permanent, and we believe in it. We can provide you with updates on the results SEO is having on your online presence and suggest areas for improvement. This is done with honesty and professionalism so that no aspect is missing.",
-      category: "Human Resource Management",
+      image: "360-product-spins.png",
+      heading: "VR Product",
+      slug: "360-product-spins",
+      para: `
+Take customer engagement to the next level with Techlivion’s immersive VR product demos. We specialize in creating interactive, virtual reality experiences tailored to your products, allowing customers to explore and experience your offerings in a fully immersive environment.
+      
+VR product demos are the key to providing customers with a unique, hands-on experience that enhances understanding and drives purchase decisions. At Techlivion, we understand how VR can transform product showcases, allowing users to interact with and experience products like never before. Whether it’s walking through a virtual store, exploring complex machinery, or visualizing products in 3D space, our VR demos are designed to elevate your business and provide unforgettable customer experiences.
+      
+      `,
+      category: "3D Product Visualization",
     },
 
     {
       id: 35,
-      image: "core-hr.png",
-      heading: "Core HR",
-      slug: "core-hr",
-      para: "Techlivion can, on demand, take up all the HR services you require, from hiring, to training, onboarding, managing, paying, and scheduling your employees for you. This way, the HR function becomes a one-window operation for you.",
-      category: "Human Resource Management",
+      image: "graphic-design.jpg ",
+      heading: "Graphic Designing",
+      slug: "graphic-design",
+      para: `Create a Lasting Impression with Techlivion’s Graphic Designing Services. Stand out in a competitive market with Techlivion’s professional graphic designing services. We specialize in crafting visually compelling designs that represent your brand and engage your audience, allowing you to communicate your message effectively and create a memorable presence. <br>
+Graphic design is the key to building a strong visual identity and connecting with your audience. At Techlivion, we understand the importance of design in shaping your business’s image. Whether it’s designing a unique Logo Design that reflects your brand's essence or developing a comprehensive Brand Identity to ensure consistency across all touchpoints, our solutions are designed to make your business visually appealing and unforgettable.
+`,
+      category: "BPO Services",
     },
     {
       id: 36,
-      image: "employee-performance.png",
-      heading: "Employee Performance",
-      slug: "employee-performance",
-      para: `Track, assess, and optimize employee performance with tailored KPIs, feedback systems, and goal-setting tools.`,
-      category: "Human Resource Management",
-    },
-    {
-      id: 37,
-      image: "employee-database.png",
-      heading: "Employee Database",
-      slug: "employee-database",
-      para: `Maintain a secure and organized database for all employee records, ensuring compliance and easy access.`,
-      category: "Human Resource Management",
-    },
-    {
-      id: 38,
-      image: "lms-systems.png",
-      heading: "LMS Systems",
-      slug: "lms-systems",
-      para: `Implement Learning Management Systems that facilitate employee training, upskilling, and knowledge sharing across teams.`,
-      category: "Human Resource Management",
-    },
-    {
-      id: 39,
-      image: "analytics.png",
-      heading: "Analytics",
-      slug: "analytics",
-      para: `Unlock insights into your workforce with advanced analytics tools that help improve retention, productivity, and engagement.`,
-      category: "Human Resource Management",
-    },
-    {
-      id: 40,
-      image: "ppc-advertising.png",
-      heading: "PPC Advertising",
-      slug: "ppc-advertising",
-      para: "Increase your traffic and potential customers by paying per click on your ads. We facilitate you to get the best deal for buying traffic in addition to the organic traffic we generate for you.",
-      category: "Digital Marketing",
-    },
-    {
-      id: 41,
-      image: "link-building.png",
-      heading: "Link Building",
-      slug: "link-building",
-      para: "Increase the rank and authority of your pages by linking them with other sites. This will not only increase the traffic to your page but also help establish you in the market.",
-      category: "Digital Marketing",
-    },
-    {
-      id: 42,
-      image: "social-media-marketing.png",
-      heading: "Social Media Marketing",
-      slug: "social-media-marketing",
-      para: "Techlivion gives you a complete package for all the social media marketing services to help you boost your online presence.",
-      category: "Digital Marketing",
-    },
-    {
-      id: 43,
-      image: "content-marketing.png",
-      heading: "Content Marketing",
-      slug: "content-marketing",
-      para: "Techlivion provides professional content marketing through experts who are experienced and updated with the modern requirements of the digital world.",
-      category: "Digital Marketing",
-    },
-    {
-      id: 44,
-      image: "ad-campaigns-designing.png",
-      heading: "Ad Campaigns Designing",
-      slug: "ad-campaigns-designing",
-      para: "Techlivion provides you with the visual vocabulary of your ads, including imagery, styles, and messaging. We offer a strategic blend of creativity, precise targeting, and data analysis to positively engage target customers and achieve beneficial results.",
-      category: "Digital Marketing",
-    },
-    {
-      id: 45,
       image: "content-writing.png",
       heading: "Content Writing",
       slug: "content-writing",
-      para: "Techlivion has a dedicated team of experienced professionals to offer content writing services to boost your product and even more, to create content that represents your product. This includes both general and technical writing.",
-      category: "Digital Marketing",
-    },
-    {
-      id: 46,
-      image: "3d-modelling.png",
-      heading: "3D Modelling",
-      slug: "3d-modelling",
-      para: "Creation of accurate 3D models of products, including detailed geometries, textures, and materials. This service can cover anything from consumer electronics to furniture, machinery, or apparel. It can be used in product design, virtual prototypes, or e-commerce displays.",
-      category: "3D Product Visualization",
-    },
-    {
-      id: 47,
-      image: "3d-rendering.png",
-      heading: "3D Rendering",
-      slug: "3d-rendering",
-      para: "High-quality, photorealistic renders of 3D models, often used for marketing, advertisements, or presentations. The rendering process involves lighting, shading, and environmental effects to create lifelike images. It can be used in product catalogs, advertisements, or website displays.",
-      category: "3D Product Visualization",
-    },
-    {
-      id: 48,
-      image: "360-product-spins.png",
-      heading: "360 Product Spins",
-      slug: "360-product-spins",
-      para: "Interactive 360-degree views of products that users can rotate and explore from all angles. These can be embedded on websites or apps, allowing clients to showcase their products in an engaging, interactive format. It can be used in e-commerce platforms, online product showcases.",
-      category: "3D Product Visualization",
-    },
-    {
-      id: 49,
-      image: "ar-integration.png",
-      heading: "Augmented Reality (AR) Integration",
-      slug: "ar-integration",
-      para: "Integration of 3D product models into AR applications, allowing users to view products in their real-world environment using smartphones or AR headsets. It can be used in furniture placement in homes, virtual try-ons for clothing, or product visualization in retail settings.",
-      category: "3D Product Visualization",
-    },
-    {
-      id: 50,
-      image: "vr-product-demos.png",
-      heading: "Virtual Reality (VR) Product Demos",
-      slug: "vr-product-demos",
-      para: "Fully immersive VR environments where clients or customers can interact with 3D product models, test features, or explore virtual showrooms. It can be used in trade shows, virtual product demos, or interactive training programs.",
-      category: "3D Product Visualization",
-    },
-    {
-      id: 51,
-      image: "3d-animation.png",
-      heading: "3D Animation",
-      slug: "3d-animation",
-      para: "Creation of animated 3D models that demonstrate how a product functions, its features, or its assembly process. These animations can be used for marketing or instructional content. It can be used in product demos, explainer videos, or assembly guides.",
-      category: "3D Product Visualization",
-    },
-    {
-      id: 52,
-      image: "custom-configurators.png",
-      heading: "Custom Configurators",
-      slug: "custom-configurators",
-      para: "Interactive 3D product configurators that allow users to customize product features such as colors, materials, or components in real-time. It can be used in automotive configurators, furniture customization, or fashion product variations.",
-      category: "3D Product Visualization",
-    },
-    {
-      id: 53,
-      image: "3d-prototyping.png",
-      heading: "3D Prototyping and Simulation",
-      slug: "3d-prototyping",
-      para: "Digital prototyping services that allow clients to visualize and test product designs before physical production. Includes simulation of mechanical properties or product behavior under different conditions. It can be used in engineering prototypes, product testing, or virtual prototyping for R&D.",
-      category: "3D Product Visualization",
-    },
-    {
-      id: 54,
-      image: "3d-printing-pre-visualization.png",
-      heading: "3D Printing Pre-Visualization",
-      slug: "3d-printing-pre-visualization",
-      para: "Providing visual previews of how a 3D printed product will look once completed. This service helps clients adjust designs before sending them to a 3D printer. It can be used in rapid prototyping, pre-production design review.",
-      category: "3D Product Visualization",
-    },
-    {
-      id: 55,
-      image: "web-based-3d-viewer.png",
-      heading: "Web-based 3D Viewer Integration",
-      slug: "web-based-3d-viewer",
-      para: "Embedding 3D product visualizations directly onto websites with interactive viewers, allowing users to explore and interact with products within a web browser. It can be used in e-commerce websites, product portfolios, or client presentations.",
-      category: "3D Product Visualization",
+      para: `
+        <p>Engage and Inform with Techlivion’s Content Writing Services. Elevate your brand's voice with Techlivion’s professional content writing services. We specialize in crafting high-quality, engaging content tailored to your audience, ensuring your message resonates and drives results. Whether you're looking to inform, educate, or entertain, we have the expertise to deliver the perfect content for your needs.</p>
+    
+        <p>Content writing is the key to creating a strong connection with your audience and enhancing your online presence. At Techlivion, we offer a wide range of writing services, including:</p>
+        
+        <ul>
+          <li><strong>Article Writing:</strong> Delivering in-depth, informative articles that engage readers and establish authority in your industry.</li>
+          <li><strong>SEO Optimized Writing:</strong> Creating content that not only reads well but is also optimized for search engines, ensuring better visibility and higher rankings.</li>
+          <li><strong>Technical Writing:</strong> Producing clear, concise, and accurate documentation, manuals, and guides for complex topics and products.</li>
+          <li><strong>Ghost Writing:</strong> Providing professional writing services while maintaining your unique voice, perfect for books, speeches, and articles published under your name.</li>
+          <li><strong>Blog Writing:</strong> Crafting insightful and engaging blog posts that resonate with your audience, increase traffic, and drive meaningful engagement.</li>
+        </ul>
+    
+        <p>At Techlivion, we understand the importance of compelling content in shaping perceptions and influencing decisions. Our expert writers are here to help you create content that stands out and drives success.</p>
+      `,
+      category: "BPO Services",
     },
 
     {
-      id: 56,
-      image: "back-office-outsourcing.png",
-      heading: "Back Office Outsourcing",
-      slug: "back-office-outsourcing",
-      para: "Outsource your HR management, payroll, finance and accounting, information technology management, data entry to Techlivion. We will fulfill these operations professionally and as you would have cared for these. We have teams and individuals that are experienced in handling these tasks.",
+      id: 37,
+      image: "customer-support.png",
+      heading: "Customer Support",
+      slug: "customer-support",
+      para: `Enhance Your Customer Experience with Techlivion’s Customer Support Services. Provide exceptional support to your customers with Techlivion’s tailored customer support services. Whether you're looking to outsource your customer service operations or enhance your existing support team, we are here to help you create seamless, effective, and personalized experiences for your customers.<br><br>
+Customer support is crucial in building strong, lasting relationships with your clients. At Techlivion, we specialize in offering comprehensive customer support solutions that can include both chat and call support. If you're looking to outsource your customer support entirely, we can handle the entire process for you—ensuring timely, professional, and reliable service for your customers.<br> <br>
+Our support services are designed to meet your business’ needs, whether you require 24/7 assistance, dedicated support teams, or customer service that aligns with your brand voice. With our expertise, you can focus on growing your business while we handle the customer interactions that keep your clients satisfied.`,
       category: "BPO Services",
     },
     {
-      id: 57,
-      image: "front-office-outsourcing.png",
-      heading: "Front Office Outsourcing",
-      slug: "front-office-outsourcing",
-      para: "Techlivion can handle your sales, marketing, customer services, tech-support, and other business processes requiring direct contact with customers, with dignity, pride, and professionalism.",
-      category: "BPO Services",
-    },
-    {
-      id: 58,
-      image: "accounting.png",
-      heading: "Accounting",
-      slug: "accounting",
-      para: "You can outsource your accounting works to our experts. We will provide you with accounting management, bookkeeping, payroll processing, financial analysis, auditing, bank reconciliation, management consulting, balance sheets, taxes and other such services, with confidence and reliance.",
-      category: "BPO Services",
-    },
-    {
-      id: 59,
-      image: "it-outsourcing.png",
-      heading: "IT Outsourcing",
-      slug: "it-outsourcing",
-      para: "Outsource all your IT requirements to us, may it be software development of any kind or management, or software services, to Techlivion and we will give you an experience worth marketing about.",
-      category: "BPO Services",
-    },
-    {
-      id: 60,
-      image: "onshore-offshore-bpo.png",
-      heading: "Onshore / Off Shore BPO",
-      slug: "onshore-offshore-bpo",
-      para: "Outsource your business processes, be these in your country or any other country of your requirement. We manage such services on your behalf so that you can be trouble-free from processes and focus on other aspects of your business.",
-      category: "BPO Services",
-    },
-    {
-      id: 61,
+      id: 38,
       image: "data-entry.png",
       heading: "Data Entry",
       slug: "data-entry",
-      para: "Like other services, data entry services are provided by Techlivion at competitive prices and with reliability and time efficiency.",
+      para: `
+      Streamline Your Operations with Techlivion’s Data Entry Services. Enhance your operational efficiency with Techlivion’s expert data entry services. We specialize in offering accurate, fast, and cost-effective data management solutions tailored to your business needs, helping you save time, reduce manual errors, and focus on more strategic tasks. <br>  <br>
+Data entry is the key to organizing and managing critical information effectively. At Techlivion, we understand the importance of maintaining clean, accurate, and up-to-date data. Whether it’s entering large volumes of information, updating databases, or processing forms, our solutions are designed to streamline your data management processes, enabling your business to operate smoothly and efficiently.
+      `,
       category: "BPO Services",
     },
     {
-      id: 62,
-      image: "marketing-outsourcing.png",
-      heading: "Marketing",
-      slug: "marketing-outsourcing",
-      para: "Outsource your company's marketing to us and we will help you enhance your reach in the target areas to help you grow.",
+      id: 39,
+      image: "accounting.png",
+      heading: "Accounting",
+      slug: "accounting",
+      para: `Streamline Your Finances with Techlivion’s Accounting Services. Simplify your financial processes and gain better control over your business with Techlivion’s expert accounting services. We specialize in offering comprehensive accounting solutions tailored to your unique needs, enabling you to save time, reduce errors, and focus on growth.
+Accounting is the key to ensuring financial accuracy and compliance. At Techlivion, we understand the importance of sound financial management. Whether it’s managing payroll, tax preparation, financial reporting, or bookkeeping, our solutions are designed to optimize your accounting functions, ensuring you have reliable insights to make informed business decisions.
+`,
       category: "BPO Services",
     },
+
     {
-      id: 63,
-      image: "healthcare.png",
-      heading: "Health Care",
-      slug: "healthcare",
-      para: "We provide healthcare process outsourcing, including coding, billing services, transcription, calling, e-mail support and others, to help individuals and organizations in the medical field.",
-      category: "BPO Services",
-    },
-    {
-      id: 64,
-      image: "data-analysis.png",
-      heading: "Data Analysis",
-      slug: "data-analysis",
-      para: "Interpret complex data through us to make enhanced decisions and customer experience. We offer skills of both technical type like data cleaning and statistical analysis and also equally important skills of critical thinking and communication.",
-      category: "BPO Services",
-    },
-    {
-      id: 65,
-      image: "technical-support.png",
-      heading: "Technical Support",
-      slug: "technical-support",
-      para: "Are you frustrated from the daily interruptions caused by IT lags? Allow us to help you provide with technical support that resolves software, and network problems. It will enhance productivity and ensure the smooth operations of technology and maximize its performance.",
-      category: "BPO Services",
-    },
-    {
-      id: 66,
+      id: 40,
       image: "mobile-game-development.png",
-      heading: "Mobile Game Development (IOS / Android)",
+      heading: "Game Development",
       slug: "mobile-game-development",
-      para: "Techlivion specializes in Game Development. We develop gaming apps for Android, iOS, and other mobile operating systems. We can work to realize your ideas about games and also provide you with innovative and workable ideas.",
+      para: `
+Game development is the key to creating memorable experiences that captivate and entertain. At Techlivion, we understand the importance of designing games that are not only fun to play but also visually stunning and technically innovative. Whether you’re looking to develop mobile games, PC games, console games, or create immersive AR/VR experiences, our solutions are designed to provide a dynamic and exciting user experience across all platforms. <br/>
+ 
+Game development is the key to creating memorable experiences that captivate and entertain. At Techlivion, we understand the importance of designing games that are not only fun to play but also visually stunning and technically innovative. Whether you’re looking to develop mobile games, PC games, console games, or create immersive AR/VR experiences, our solutions are designed to provide a dynamic and exciting user experience across all platforms.
+      
+      `,
       category: "Game Development",
     },
     {
-      id: 67,
+      id: 41,
       image: "pc-console-ar-vr-games.png",
-      heading: "PC, Console, AR / VR Games",
+      heading: "iOS/Android",
       slug: "pc-console-ar-vr-games",
-      para: "Like Mobile gaming apps, we also provide apps that will run on PC, Consoles, AR / VR technologies. We are your partners from conceptualization to user feedback.",
+      para: `Unlock the potential of mobile technology with Techlivion’s expert iOS and Android development services. We specialize in creating innovative, high-performance mobile applications, including games, for both platforms. Whether you're targeting iPhone, iPad, Android smartphones, or tablets, we have the expertise to bring your ideas to life. <br/> <br/>
+We offer custom mobile game development solutions that are engaging, immersive, and tailored to your audience. At Techlivion, we understand the unique requirements of iOS and Android platforms and ensure seamless integration, performance optimization, and exceptional user experiences. From concept to launch, our team will work with you to develop games that captivate users and achieve your business goals.
+`,
       category: "Game Development",
     },
     {
-      id: 68,
+      id: 42,
       image: "ai-game-development.png",
-      heading: "AI Game Development",
-      slug: "ai-game-development",
-      para: "AI is the thing in gaming today. We can develop for you responsive and adaptive games that will give ultimate gaming experience to you and / or to your clients.",
-      category: "Game Development",
-    },
-    {
-      id: 69,
-      image: "vr-game-development.png",
-      heading: "Virtual Reality Game Development",
-      slug: "vr-game-development",
-      para: "VR reality games development will be specifically designed to be played with VR hardware. This is done through experts.",
-      category: "Game Development",
-    },
-    {
-      id: 70,
-      image: "ar-game-development.png",
-      heading: "Augmented Reality Game Development",
-      slug: "ar-game-development",
-      para: "As VR game, we also offer our clients AR games development at the most competitive rates and give users the ultimate gaming experience of augmented reality.",
-      category: "Game Development",
-    },
-    {
-      id: 71,
-      image: "game-art-design.png",
-      heading: "Game Art Design Services",
-      slug: "game-art-design",
-      para: "Techlivion has expert designers who will design the games with the software engineers to artistically design the backgrounds and characters of the games.",
-      category: "Game Development",
-    },
-    {
-      id: 72,
-      image: "gamification-services.png",
-      heading: "Gamification Services",
-      slug: "gamification-services",
-      para: "Techlivion can provide you with gamification services that will integrate the games with websites, online communities, learning management systems, and other online platforms to engage the users, help them interact, inspire, collaborate, and share.",
+      heading: "Game Art Design ",
+      slug: "game-art",
+      para: `
+      Bring Your Game to Life with Techlivion’s Game Art Design Services. Create stunning visuals that captivate and engage players with Techlivion’s professional game art design services. We specialize in crafting high-quality, visually immersive art for games across all platforms, ensuring that your game not only plays well but also looks exceptional. <br/> <br/>
+Game art design is the key to creating an unforgettable player experience. At Techlivion, we offer a wide range of art design services, including character design, environment art, user interface design, and 2D/3D assets. Our experienced team works closely with you to understand your vision, ensuring that every artistic element aligns with the overall style and tone of your game. <br/> <br/>
+Whether you’re creating a mobile game, console title, or VR experience, our custom-designed art will help your game stand out and deliver a visually engaging experience for players.      
+      `,
       category: "Game Development",
     },
   ];
@@ -657,7 +528,7 @@ An SEO audit serves as a roadmap for your digital success, ensuring your website
             <div className="row my-5">
               <div className="col-12 service-content">
                 <h2>{service.heading}</h2>
-                <p>{service.para}</p>
+                <p dangerouslySetInnerHTML={{ __html: service.para }} />
 
                 <div className="mt-5">
                   {/* <button className="btn-service" onClick={()=> navigate("/quote")}>Get A Quote</button> */}

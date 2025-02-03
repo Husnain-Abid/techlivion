@@ -1,7 +1,11 @@
 import React from "react";
 import "./HomeVision.css";
+import { useNavigate } from "react-router-dom";
 
 export default function HomeVision() {
+
+const navigate = useNavigate();
+
   return (
     <div className="vision-back">
       <div className="container py-vision text-white">
@@ -18,7 +22,7 @@ export default function HomeVision() {
           {/* button */}
 
           <div className="d-flex justify-content-center">
-            <button className="vision-btn d-flex align-items-center text-white">
+            <button className="vision-btn d-flex align-items-center text-white" onClick={()=> navigate("/contact") }>
               <div className="p-2 ">
                 Let’s Start
                 <span className="ps-3">

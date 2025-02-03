@@ -36,7 +36,7 @@ const navigate = useNavigate();
         <div className="container">
           <h1 className="display-4 mb-3">Join Our Community</h1>
           <p className="lead mb-4">
-          Be part of something Extraordinary. Connect, Learn, and Grow with us
+          Be part of something Extraordinary. Connect, Learn, and Grow with us.
           </p>
           <button className="btn btn-join " onClick={()=> navigate("/contact")}>Join Us</button>
         </div>
@@ -186,13 +186,13 @@ const navigate = useNavigate();
                   "Joining this community was the best decision of my career. The connections and resources are invaluable.",
               },
               {
-                name: "Sarah Lee",
+                name: "El-Mahdy Khaled",
                 role: "Designer",
                 quote:
                   "I've grown so much professionally since becoming a member. The support here is amazing!",
               },
               {
-                name: "Mike Brown",
+                name: "Rabya Zahid",
                 role: "Entrepreneur",
                 quote:
                   "The opportunities I've had access to through this community have been game-changing for my business.",
@@ -201,7 +201,7 @@ const navigate = useNavigate();
               <div className="col-md-4 mb-2" key={index}>
                 <div className="card h-100 ">
                   <div className="card-body ">
-                    <h5 className="card-title">{testimonial.name}</h5>
+                    <h5 className="card-title">{testimonial.name}</h5>           
                     <h6 className="card-subtitle mb-2 text-muted">
                       {testimonial.role}
                     </h6>

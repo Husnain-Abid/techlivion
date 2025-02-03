@@ -52,13 +52,13 @@ export default function AboutFAQ() {
     <div className="container py-FAQ epilogue">
       <div className="d-flex justify-content-center">
         <div className="FAQ-Box">
-          <p className="orange">FAQ</p>
+          <p className="orange">FAQs</p>
           <h1>Frequently Asked Questions</h1>
-          <p className="mb-65">
+          {/* <p className="mb-65">
             A digital agency is a business you hire to outsource your digital
             marketing efforts, instead of <br className="none-425" /> handling
             in-house.
-          </p>
+          </p> */}
 
           {/* Loop over FAQ items */}
           {faqData.map((faq, index) => (
